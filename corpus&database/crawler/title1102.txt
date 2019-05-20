@@ -1,0 +1,37 @@
+Outline
+Uncertainty
+Uncertainty in the Wumpus World
+Plannnig under Uncertainty
+Methods for handling Uncertainty
+Probability
+Making decisions under uncertainty
+Probability basics
+Random variables
+Propositions
+Why use probability?
+Syntax for propositions
+Prior probability
+Joint probability
+Probability for continuous variables
+Gaussian density
+Probabilistic Agents
+Example: Tooth Decay
+Joint Probability Distribution
+Inference by Enumeration
+Inference by Enumeration
+Conditional Probability
+Conditional Probability by Enumeration
+Independent Variables
+Independence
+Conditional independence
+Conditional independence
+Bayes Rule
+Example: Medical Diagnosis
+Bayes Rule and Conditional Independence
+Bayes Rule and Conditional Independence
+Wumpus World
+Specifying the Probability Model
+Manipulating Probabilities
+Fringe Models
+Using the Prior
+Summary

@@ -1,0 +1,14 @@
+{
+	"name": "socket-chat-example",
+	"version": "0.0.1",
+	"description": "student-tutor chat bot",
+	"dependencies": {
+		"dialogflow": "^0.8.0",
+		"express": "^4.15.2",
+		"request": "^2.88.0",
+		"socket.io": "^2.2.0"
+	},
+	"scripts": {
+		"start": "node app.js"
+	}
+}

@@ -1,0 +1,24 @@
+1. Evolutionary Computation Paradigms 2. Deceptive Landscapes 3. Punctuated Equilibria 4. Coevolution in Nature 5. Coevolution in Machine Learning
+1. use principles of natural selection to evolve a computational 2.mechanism which performs well at a specied task. 3. start with randomly initialized population 4. repeated cycles of: 5." evaluation 6." selection 7." reproduction + mutation 8. any computational paradigm can be used, with appropriately dened 9.reproduction and mutation operators
+1. Initialize champ policy champ = 0 2. for each trial, generate mutant policy 3.mutant = champ + Gaussian noise (xed ) 4. champ and mutant play a number of games, with same game initial 5.conditions 6. if mutant does better than champ, 7.champ  (1  )champ +  mutant 8.We saw this algorithm applied to Backgammon, and Simulated Hockey.
+1.Lets assume we have a population of 100 individuals. 2.At each generation, we evaluate a tness score for each individual. In 3.some cases, this may require tranlating from a genotype to a phenotype. 4.The best 50 individuals are selected, and the other 50 are culled or 5.removed from the population. 6.Crossover and mutation operators are applied to the selected individuals, 7.producing 50 new individuals to replace those who were culled. 8.We then evaluate the new population of 100 individuals, and the cycle 9.repeats.
+1. Representations 2. Mutation operators 3. Crossover operators 4. Fitness functions
+1. continuous parameters (Swefel  Evolutionary Strategy) 2. Bit Strings (Holland  Genetic Algorithm) 3. S-expression trees (Koza  Genetic Programming) 4. Lindenmeyer system (e.g. Sims  Evolving Virtual Creatures)
+1.one(cid:0)point(cid:0)crossover: 2.11101001000 3.00001010101 4.two(cid:0)point(cid:0)crossover: 5.11101001000 6.00001010101 7.point(cid:0)mutation: 8.11101010101 9.00001001000 10.11001011000 11.00101000101 12.11101001000 13.11101011000
+1.24748552 2.32752411 3.24415124 4.32543213 5.24 6.(cid:0)1(cid:0) 7.2(cid:0) 8.29(cid:0) 9.2(cid:0) 10.2(cid:0)(cid:0) 11.11 12.14(cid:0) 13.32752411 14.24748552 15.32752411 16.24415124 17.32748552 18.24752411 19.32752124 20.24415411 21.32748152 22.24752411 23.32252124 24.24415417 25.Fitness 26.Selection 27.Pairs 28.Cross(cid:0)Over 29.Mutation 30.A schema is a genome pattern in which some values are specied and 31.others are not, e.g. 32.**415***
+1. implicit parallelism 2. tter schemas increase their representation over time 3. schemas combine like building blocks
+1.Sometimes the tness function presents a 2.sooth hill for the algorithm to climb. 3.But, often we see deceptive landscapes 4.leading to premature convergence, where 5.the population gets stuck on a local opmi- 6.mum. 7. tness sharing 8. random re-starts 9. age layered planes (ALPS) 10. (spatial) coevolution
+1. Learning done on actual robot.
+1. Learning done in simulator(s), then tested on actual robot.
+1.One example of the use of Evolu- 2.tionary Algorithms for a real world 3.application is the antenna that was 4.evolved by Hornby et al in 2006 for 5.NASAs Space Technology 5 (ST5) 6.mission.
+1. Eldridge & Gould, 1970 2." partial geographic isolation 3." punctuated equilibria 4. ideas for Evolutionary Computation? 5." island models 6." co-evolution / articial ecology ?
+1. competitive (leopard vs. gazelle) 2. co-operative (insects/owers) 3. mixed co-operative/competitive (Maynard-Smith) 4. different genes within the same genome? 5. diffuse co-evolution
+1. brain / body (Sims, Lipson) 2. strategic games (Backgammon/Chess/Go) 3. human vs. machine (Tron) 4. algorithm vs. test cases (Hillis) 5. mixed co-operative/competitive (IPD) 6. language games (Tonkes, Ficici) 7. artist/critic (Evolutionary Art)
+1. Body evolves as a Lindenmeyer system 2. Controller evolves as a neural network
+1. Evolved in simulation, tested in reality.
+1.(cid:0) 2.1 2 (cid:0) 3.4 5 (cid:0) 4.(cid:0) 5.(cid:0) 6.9 1(cid:0) 11 12 7.25 8.24 2(cid:0) 22 21 2(cid:0) 19 9.1(cid:0) 1(cid:0) 1(cid:0) 15 14 1(cid:0)
+1. evolving population of networks 2. converged to local optimum 3. nal network not quite as good as hand-crafted human solution
+1. two co-evolving populations (networks and strings) 2. can escape from local optima 3. punctuated equilibria observed 4. better than hand-crafted solutions (Tufts, Juille & Pollack)
+1.C D 2.C 3,3 0,5 3.D 5,0 1,1 4.TFT  ALL-C  ALL-D  TFT
+1.Generated(cid:0)Images 2.Artist 3.Critic 4.Real(cid:0)Images
+1. Co-evolution tends to provide an opponent of appropriate ability 2. generally helps to escape from local optima 3. however, can create new mediocre stable states (collusion)

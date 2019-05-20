@@ -1,0 +1,57 @@
+[
+  {
+    "id": "b431bee1-3131-4d0a-9180-091987db14a8",
+    "data": [
+      {
+        "text": "who teaches this course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7fc91e1a-1466-4cc0-b078-182bfd254b65",
+    "data": [
+      {
+        "text": "what is the lecturer\u0027s name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2880a262-9a23-4599-aea1-ccc9dc23eddf",
+    "data": [
+      {
+        "text": "who teach this course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "3e46844a-6870-4f87-8ede-4651ff87289c",
+    "data": [
+      {
+        "text": "who is the lecturer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "077391e7-5e1c-4f63-b572-eb0941480606",
+    "data": [
+      {
+        "text": "who is the lecture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

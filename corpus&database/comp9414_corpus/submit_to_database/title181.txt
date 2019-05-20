@@ -1,0 +1,26 @@
+Learning Agents
+Types of Learning
+Supervised Learning
+Supervised Learning  Issues
+Curve Fitting
+Curve Fitting
+Curve Fitting
+Curve Fitting
+Curve Fitting
+Ockhams Razor
+Outliers
+Restaurant Training Data
+Decision Tree
+Generalization
+Choosing an Attribute
+Entropy
+Entropy and Huffmann Coding
+Entropy and Huffmann Coding
+Entropy
+Choosing an Attribute
+Induced Tree
+Laplace Error and Pruning
+Minimal Error Pruning
+Minimal Error Pruning
+Minimal Error Pruning
+Summary

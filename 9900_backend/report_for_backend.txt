@@ -1,0 +1,59 @@
+Methodology
+
+A. Content Database
+  Our content Database consists of chunks of data from course lecture notes. A chunk, which can be returned
+to the user as a query's answer, is a piece of content under a specific heading (topic) in lecture notes.
+In addition, these headings are also stored in our Database to help the system find answers with respective
+to some direct questions.
+
+B. Keyword Extraction
+  Keyword Extraxtion model works in two stages. One is to construct a corpus using data from content Database.
+Another is to extract some words that have relatied higher importance from chunks. This is also used for queries,
+which improves efficience of following compute. We use TF.IDF to evaluate the importance of a word. Term frequency 
+provides us with the importance of a word within a chunk. Meanwhile, log term frequency is applied for properly 
+reducing difference among words. Moreover, our approach use inverses document frequency to make sure that rare terms 
+are more informative than frequent terms within all chunks.
+
+  In our approach, data from Content Database is firstly preprocessed using tokenization, normalization, 
+lemmatization and stemming. Then those preprocessed chunks and headings are treated as documents and constitute 
+the corpus for our system. Terms with the tf.idf more than 0.15 will be kept. Those documents 
+and their kept terms are intended for answer retrieval in the following work.
+
+C. Information Retrieval
+  Queries related to course content, identified by Dialogflow, will be passed to our information retrieval model.
+Others will be answered as general questions and our agent will return some presupposed or default information
+to users. Those content-related queries will be preprocessed firstly and then the system also extracted keywords
+using our keyword extraction model. An extra restriction is that keywords must be in our term-dictionary of the 
+corpus.
+
+  Each document, including headings and content, is now represented by a real-valued vector of tf.idf weights
+during the process of retrieval. The query, which is waiting for searching an answer, is treated as a vector 
+now, as well. Then we evaluate the cosine distance between each document and the query. Cosine distance is a 
+effective method to compute the similarity of two vectors. It more considers the distribution of terms rather 
+than length of vectors. In practice, our system apply L2 normalization to weight of terms. The whole compute is 
+mathematically given by equation below:
+
+Score(vector_q, vector_c) = sum(q_i * c_i * theta_i for i in vector) / sqrt(sum(square(q_i) for i in vector)) * sqrt(sum(square(c_i) for i in vector))
+
+Finally, two or three data chunks with the highest cosine score will be returned to the user, as the answer of 
+this query.
+
+D. Learning Factor
+  The above equation has a learning factor theta. It is designed for improving the system performance through
+users' feedback. Our system always return several suggested answers to users in the order of score between 
+chunks and a certain query. However, as the PART C mentioned, we also treat heading as a chunk. Those headings
+are more likely to gain a higher score than content chunks. The reason why we did it is that we found most users'
+queries are direct. The answers to those direct questions tend to occur in lecture notes with a specific 
+heading. Hence, adding headings, as a chunk, to our corpus is a effective method to improve the quality of
+responses. However, there still some queries not only in terms of heading, but also some key terms in 
+course-content chunks. The answers to those queries may successfully be returned to users, but they are more 
+likely to be as second or third suggested answer. To provide more intelligent experience to users, we tend to 
+improve our system through requesting a feedback for each searched result from users, if the actually most related
+answer is not the first suggested answer.
+
+  By default, all the learning factors of each term is set to 1 or 0.5. A learning factor will increase by a small value, 
+if user chooses the second or third answer as the best one. Affected terms includes all common keyword between 
+this chunk and the query. This ensures that after some times of learning, the correct answer may appear on 
+first position.
+
+

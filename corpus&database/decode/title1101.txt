@@ -1,0 +1,34 @@
+Outline
+Image Processing Tasks
+Limitations of Two-Layer Neural Networks
+MNIST Handwritten Digit Dataset
+CIFAR Image Dataset
+ImageNet LSVRC Dataset
+Vanishing / Exploding Gradients
+Activation Functions 
+Hubel and Weisel  Visual Cortex
+Convolutional Networks
+Convolutional Neural Networks
+Convolutional Filters
+LeNet trained on MNIST
+ImageNet Architectures
+AlexNet Details
+Enhancements
+Dropout 
+Residual Networks
+Dense Networks
+Neural Style Transfer
+Processing Temporal Sequences
+Simple Recurrent Network (Elman, 1990)
+Back Propagation Through Time
+Hidden Unit Dynamics for anbncn
+Long Range Dependencies
+Long Short Term Memory
+Statistical Language Processing
+word2vec 1-Word Context Model
+Linguistic Regularities
+Reinforcement Learning Framework
+Q-Learning
+Deep Q-Learning for Atari Games
+Asynchronous Advantage Actor Critic
+Other Deep Learning Topics

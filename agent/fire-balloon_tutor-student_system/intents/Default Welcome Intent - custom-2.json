@@ -1,0 +1,33 @@
+{
+  "id": "d8568069-0573-44d5-b1b2-f4ef82e9e6f4",
+  "parentId": "e427223a-81a2-4878-8e47-6f236f40a3b0",
+  "rootParentId": "e427223a-81a2-4878-8e47-6f236f40a3b0",
+  "name": "Default Welcome Intent - custom-2",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "That\u0027s fine. How can I help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "223c87fa-f892-4bcc-8b89-0494773e4db0",
+  "parentId": "9844a391-67fe-4f0e-a0cf-77d45e565e54",
+  "rootParentId": "9844a391-67fe-4f0e-a0cf-77d45e565e54",
+  "name": "Thanks - custom",
+  "auto": true,
+  "contexts": [
+    "Thanks-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Thanks.Thanks-custom",
+      "affectedContexts": [
+        {
+          "name": "Thanks-custom-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks for using Fire Balloon, hope to see you again soon! Bye~"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

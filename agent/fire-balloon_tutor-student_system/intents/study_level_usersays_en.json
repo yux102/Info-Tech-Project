@@ -1,0 +1,85 @@
+[
+  {
+    "id": "edc9bdb8-1873-4727-af65-05494abafc8b",
+    "data": [
+      {
+        "text": "what is the study level of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "24779e37-e310-4aa5-aa69-5f8fd2382429",
+    "data": [
+      {
+        "text": "what is the study level of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f31db4a4-1c1d-4b8f-8a62-fa46f2deccfa",
+    "data": [
+      {
+        "text": "what study level is it?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "95d9c831-4a45-4807-b4b3-c7c8bbdea2c1",
+    "data": [
+      {
+        "text": "what\u0027s study level of ",
+        "userDefined": false
+      },
+      {
+        "text": "9414",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0e50a05a-73f3-4db9-9e46-29aec9fca807",
+    "data": [
+      {
+        "text": "what is the study level of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

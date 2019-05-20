@@ -1,0 +1,19 @@
+Outline
+Articial Neural Networks
+McCulloch & Pitts Model of a Single Neuron
+Transfer function
+Linear Separability
+Perceptron Learning Rule
+Limitations of Perceptrons
+Multi-Layer Neural Networks
+Historical Context
+NN Training as Cost Minimization
+Local Search in Weight Space
+Key Idea
+Gradient Descent
+Chain Rule
+Forward Pass
+Backpropagation
+Neural Network  Applications
+ALVINN
+Training Tips

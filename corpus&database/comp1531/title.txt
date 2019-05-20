@@ -1,0 +1,79 @@
+Software engineering life cycle
+Analysis of Software engineering life cycle
+Design of Software engineering life cycle
+Implementation of Software engineering life cycle
+Testing of Software engineering life cycle
+Operation & maintenance of Software engineering life cycle
+Software development methodologies
+Elaborate processes of Software development methodologies
+Iterative and incremental processes of Software development methodologies
+Waterfall of Software development methodologies
+Detailed planning
+Suitable for projects that have
+Cons of waterfall
+Rational Unified Process (RUP) of Software development methodologies
+4 major phases
+Organised into disciplines
+Agile manifesto of Software development methodologies
+Agile drawbacks of Software development methodologies
+Which methodology is better?
+Extreme programming (XP)
+High quality of Extreme programming (XP)
+Design mantras
+Intense feedback
+Key steps in planning
+When to use Extreme programming (XP)
+Requirements engineering
+Functional requirements of Requirements engineering
+Non-functional requirements of Requirements engineering
+Formulate well-defined problem
+Who is involved in Requirements engineering
+Phases of Requirements engineering
+Test driven development (TDD) of Requirements engineering
+UML diagrams of Requirements engineering
+Object oriented design
+Key principles of Object oriented design
+Encapsulation of Key principles
+CRC of Object oriented design
+Effective software design
+Loose coupling of Effective software design
+High cohesion of Effective software design
+Good design properties
+SOLID principles
+Dependency Inversion Principle
+Benefits of Model View Controller
+Weaknesses of Model View Controller 
+Exceptions
+Testing
+Black box testing
+White box testing
+Regression testing
+Test coverage
+Code coverage
+Equivalence testing
+Boundary testing
+Control-flow testing
+Entity-Relationship Model
+Comparison with object-oriented model
+Weak entity set
+Relational data model
+Relational model vs entity model
+Software architecture
+Architecture of Software architecture
+Design of Software architecture
+Architectural style defined by
+Well known architectural styles
+Client/server
+Peer-to-peer
+benefits of Peer-to-peer
+Weaknesses of Peer-to-peer
+Pipe-and-filter
+benefits of Pipe-and-filter
+Weaknesses of Pipe-and-filter
+Central repository (database)
+Specialisations of Central repository (database)
+Benefits of Central repository (database)
+Weaknesses of Central repository (database)
+Layered
+Benefits of Layered
+Weaknesses of Layered

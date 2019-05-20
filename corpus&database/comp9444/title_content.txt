@@ -1,0 +1,125 @@
+what is a neural network
+why neural networks
+theories about intelligence
+artificial intelligence origins
+neural network origins
+serial symbolic ai
+neural network “dark ages”
+knowledge-based systems
+neural network renaissance
+applications of deep learning
+history of deep learning
+neuroanatomy
+cerebral cortex
+brain stem
+cerebellum
+midbrain
+thalamus
+hypothalamus
+limbic system
+neurons as body cells
+neurons versus body cells
+axons and dendrites
+synapses and ion channels
+the big picture
+hubel and weisel – visual cortex
+convolutional networks
+recurrent neural networks
+autoencoder networks
+spiking neurons
+outline
+biological neurons
+artificial neural networks
+mcculloch & pitts model of a single neuron
+linear separability
+historical context
+outline
+types of learning
+supervised learning
+supervised learning – issues
+ockham’s razor
+recall: limitations of perceptrons
+two-layer neural network
+the xor problem
+nn training as cost minimization
+local search in weight space
+gradient descent
+chain rule
+two-layer nn’s – applications
+training tips
+alvinn
+summary
+outline
+probability
+random variables 
+Variations on Backprop
+Cross Entropy
+Maximum Likelihood
+Bayes’ Rule
+Medical Diagnosis
+Light Bulb Defects
+Bayes Rule in Machine Learning
+Weight Decay
+Momentum
+Conjugate Gradients
+Natural Gradients (Amari, 1995)
+Outline
+Symmetries
+Controlled Nonlinearity
+Limitations of Two-Layer Neural Networks
+Adding Hidden Layers
+Vanishing / Exploding Gradients
+Solutions to Vanishing Gradients
+Activation Functions
+Dropout
+Ensembling
+Bagging
+Dropout as an Implicit Ensemble
+Convolutional Networks
+Hubel and Weisel – Visual Cortex
+Convolutional Network Components
+Convolutional Network Architecture
+Softmax
+Convolutional Neural Networks
+Example: LeNet
+Example: LeNet trained on MNIST
+Convolution with Zero Padding
+Example: AlexNet (2012)
+Stride
+Stride Dimensions
+Stride with Zero Padding
+Example: AlexNet Conv Layer 1
+Overlapping Pooling
+Outline
+MNIST Handwritten Digit Dataset
+CIFAR Image Dataset
+ImageNet LSVRC Dataset
+Image Processing Tasks
+LeNet trained on MNIST
+ImageNet Architectures
+AlexNet Architecture
+AlexNet Details
+Enhancements
+Data Augmentation
+Convolution Kernels
+Dealing with Deep Networks
+Statistics Example: Coin Tossing
+Residual Networks
+Dense Networks
+Neural Texture Synthesis
+References
+Outline
+Processing Temporal Sequences
+Sliding Window
+NetTalk Task
+NetTalk
+Simple Recurrent Network (Elman, 1990)
+Back Propagation Through Time
+Other Recurrent Network Architectures
+Task: Formal Language Recognition
+Dynamical Recognizers
+Task: Formal Language Prediction
+Counting by Spiralling
+Long Range Dependencies
+Long Short Term Memory
+Simple Recurrent Network

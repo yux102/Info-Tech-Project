@@ -1,0 +1,125 @@
+What is the definition of a neural network?
+Why neural networks?
+What is the theory about Intelligence?
+What is the history of artificial intelligence origins?
+What is the history of neural network origins?
+What is the history of serial symbolic AI origins?
+What is the definition of neural network “Dark Ages”?
+What is the definition of knowledge-based systems?
+What is the history of neural network renaissance?
+What are applications of deep learning?
+What is the history of deep learning?
+What is the definition of neuroanatomy?
+What is the definition of cerebral cortex?
+What is the definition of brain stem?
+What is the definition of cerebellum and its functions?
+What are the functions of midbrain?
+What is the definition and function of thalamus?
+What is the definition and function of hypothalamus?
+What is definition and function of limbic system?
+What and why neurons as body cells?
+What is the differences between neurons and body cells?
+What are the definition of axons and dendrites?
+What are the definition of synapses and ion channels?
+What is the definition of the big picture?
+What is the definition of hubel and weisel – visual cortex?
+What are the definition of convolutional networks?
+What are the definition of recurrent neural networks?
+What are the definition of autoencoder networks?
+What are the definition of spiking neurons?
+What is the outline of perceptrons?
+What are the definition of biological neurons?
+What are the definition of artificial neural networks?
+What is the definition of mcculloch & pitts model of a single neuron?
+What is the function of a perceptron?
+What is the definition of historical context?
+What is the outline of backpropagation?
+What are the types of learning?
+What is supervised learning?
+What are the definition of supervised learning – issues?
+What is the definition of ockham’s razor?
+How to solve many useful functions are not linearly separable?
+What is the definition of two-layer neural network?
+What is the definition of xor problem?
+Why nn training as cost minimization?
+What is the problem of local search in weight space?
+What is the definition of gradient descent?
+What is the definition of chain rule?
+What are the definition of two-layer nn’s – applications?
+What are the definition of training tips?
+What is the definition of alvinn?
+What is the summary of backpropagation?
+What is the outline of variations on backprop?
+What is the definition of probability?
+What are the definition of random variables?
+What are the definition of variations on backprop？
+What is the definition and function of cross entropy?
+What is the definition of maximum likelihood?
+What is the definition of bayes’ rule?
+What is the example of medical diagnosis?
+What is the example of light bulb defects?
+How is the Bayes Rule in Machine Learning?
+How to use weight decay?
+How to use momentum?
+What is the definition of conjugate gradients?
+What is the definition of natural gradients (Amari, 1995)?
+What is the outline of geometry of hidden units?
+What is the definition of symmetries?
+What is the definition of controlled nonlinearity?
+What are the limitations of two-layer neural networks and is there any example?
+How to add hidden layers?
+How to vanish / explode gradients?
+What are the solutions to vanishing gradients?
+What are the definition of activation functions?
+What is the definition of dropout?
+What is the definition of ensembling?
+What is the definition of bagging?
+How dropout as an implicit ensemble?
+What is the definition of convolutional network?
+What is the definition of hubel and weisel – visual cortex?
+What is the definition of convolutional network components?
+What is the definition of Convolutional Network Architecture?
+What is the definition of softmax?
+How does the convolutional neural networks work?
+What is the example of LeNet?
+What is the example of LeNet trained on MNIST?
+How to do convolution with zero padding?
+What is the example of AlexNet (2012)?
+What is the definition of stride?
+How to stride dimensions?
+How to stride with zero padding?
+What is the example of AlexNet Conv Layer 1?
+What is the definition of overlapping pooling?
+What is the outline of image processing?
+What is the definition of MNIST Handwritten Digit Dataset?
+What is the definition of CIFAR Image Dataset?
+What is the definition of ImageNet LSVRC Dataset?
+What are the definitions of Image Processing Tasks?
+How does LeNet train on MNIST?
+What is the history of ImageNet Architectures?
+What is the definition of AlexNet Architecture?
+What is the definition of AlexNet Details?
+What is the definition of enhancements?
+What is the definition of data augmentation?
+What is the definition of convolution kernels?
+How to deal with deep networks?
+What is the statistics example of coin tossing?
+What is the definition of residual networks?
+What is the definition of Dense Networks?
+What is the definition of neural texture synthesis?
+What is the references of image processing?
+What is the outline of recurrent networks?
+What is the definition of processing temporal sequences?
+What is the definition of sliding window?
+What is the definition of NetTalk Task?
+What is the definition of NetTalk?
+What is the definition of simple recurrent network (Elman, 1990)?
+What is the definition of back propagation through time?
+What is the definition of other recurrent network architectures?
+What is the task of Formal Language Recognition?
+What is the definition of Dynamical Recognizers?
+What is the task of Formal Language Prediction?
+How to count by Spiralling?
+What is the definition of long range dependencies? 
+What is the resource of long short term memory?
+What is the definition of simple recurrent network?

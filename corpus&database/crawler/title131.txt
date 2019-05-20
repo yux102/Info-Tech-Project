@@ -1,0 +1,45 @@
+Motivation
+Romania Street Map
+Example: Romania
+Single-State Task Specication
+Choosing States and Actions
+Example Problems
+The 8-Puzzle
+The 8-Puzzle
+Robotic Assembly
+Rubiks Cube
+Path Search Algorithms
+Generating Action Sequences
+General Search Example
+Search Tree
+Data Structures for a Node
+States vs. Nodes
+Data Structures for Search Trees
+Search Strategies
+How Fast and How Much Memory ?
+Benchmarking
+Analysis of Algorithms
+Uninformed search strategies
+Informed search strategies
+Breadth-First Search
+Breadth-First Search
+Properties of Breadth-First Search
+Romania with step costs in km
+Uniform-Cost Search
+Uniform-Cost Search
+Properties of Uniform-Cost Search
+Depth First Search
+Depth First Search
+Properties of Depth First Search
+Depth Limited Search
+Iterative Deepening Search
+Iterative Deepening Search
+Iterative Deepening Search
+Properties of Iterative Deepening Search
+Properties of Iterative Deepening Search
+Properties of Iterative Deepening Search
+Bidirectional Search
+Bidirectional Search
+Bidirectional Search  Issues
+Summary
+Complexity Results for Uninformed Search

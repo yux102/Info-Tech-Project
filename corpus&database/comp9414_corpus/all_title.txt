@@ -1,0 +1,439 @@
+Course Materials through OpenLearning
+Lecturer-in-Charge
+Course Schedule
+Planned Topics
+What To Do (This Week)
+Prolog Lab Schedule
+Why Prolog?
+Resources
+Assessment
+Assignments
+Plagiarism
+Related Courses
+Foundations of AI
+Foundations of AI - Philosophy
+Foundations of AI - Mathematics
+Foundations of AI - Psychology
+Foundations of AI - Linguistics
+Foundations of AI - Engineering
+Foundations of AI - Neurobiology
+Foundations of AI - Neurology
+Foundations of AI
+Theories about Intelligence
+Artificial Intelligence in Literature
+Artificial Intelligence Origins
+Turing Test
+Turing Test
+IBM Watson DeepQA
+Critiques of Turing Test (or AI in general)
+State of the art
+Summary of Foundations 
+Examples of AI Tasks
+Specifying and Classifying Tasks
+Agents as functions
+The PEAS model of an Agent
+Example: Playing Chess
+Example: Automated Taxi
+Example AI Environment - Wumpus World
+Wumpus World PEAS description
+Classifying Tasks
+Environment Types
+Simulated vs Situated or Embodied
+Simulated vs Situated or Embodied
+Static vs Dynamic
+Discrete vs Continuous
+Fully Observable vs Partially Observable
+Deterministic vs Stochastic
+Episodic vs Sequential
+Known vs Unknown
+Single-Agent vs Multi-Agent
+Wumpus World
+Dice Games (Backgammon)
+Card Games (Poker, Rummy, Mahjong)
+Situated and Embodied Cognition
+Situated vs Embodied
+Summary of Tasks
+Agent Types
+Reactive Agents
+Limitations of Reactive Agents
+Limitations of Model-Based Agent
+Faking it
+Learning
+Learning
+Outline of Reactive Agents 
+Reactive Agents
+History of Reactive Agents
+Braitenberg Vehicles
+Braitenberg Vehicles
+Chemotaxis
+Chemotaxis
+The Swiss Robots
+Behaviour-Based Robotics
+Modern Perspective
+References
+Motivation
+Example: Romania
+Single-State Task Specification
+Choosing States and Actions
+Example Problems
+The 8-Puzzle
+Path Search Algorithms
+Generating Action Sequences
+Search Tree
+Data Structures for a Node
+States vs Nodes
+Data Structures for Search Trees
+Search Strategies
+How Fast and How Much Memory ?
+Benchmarking
+Analysis of Algorithms
+Uninformed search strategies
+Informed search strategies
+Breadth-First Search
+Properties of Breadth-First Search
+Uniform-Cost Search
+Properties of Uniform-Cost Search
+Depth First Search
+Properties of Depth First Search
+Depth Limited Search
+Iterative Deepening Search
+Properties of Iterative Deepening Search
+Properties of Iterative Deepening Search
+Properties of Iterative Deepening Search
+Bidirectional Search
+Bidirectional Search  Issues
+Summary of PathSearch
+Complexity Results for Uninformed Search
+Search Strategies
+Search Strategies
+Heuristic Function
+Greedy Best-First Search
+Straight Line Distance as a Heuristic
+Examples of Greedy Best-First Search
+Properties of Greedy Best-First Search
+Recall: Uniform-Cost Search
+Properties of Uniform Cost Search
+A* Search
+A* Search
+Analysis of A* Search
+Optimality of A* Search
+Optimality of A* Search
+Properties of A* Search
+Iterative Deepening A* Search
+Exercise
+Examples of Admissible Heuristics
+Dominance
+How to Find Heuristic Functions ?
+Composite Heuristic Functions
+Heuristics for Rubiks Cube
+Summary of Informed Search
+Outline of Games
+Origins
+Funding Problems
+Ada Lovelace
+Types of Games
+Key Ideas
+Why Games ?
+Samuel’s Checkers Program
+Minimax
+Minimax algorithm
+Minimax and Negamax
+Negamax formulation of Minimax
+Properties of Minimax
+Reducing the Search Effort
+Heuristic Evaluation for Chess
+Pruning  Motivation
+a-b pruning example
+a-b search algorithm
+Negamax formulation of a-b search
+Why is it called a-b?
+Properties of a-b
+Chess
+Checkers
+Go
+Stochastic games in general
+Expectimax algorithm
+For Minimax, Exact values don't matter
+For Expectimax, Exact values DO matter
+Partially Observable games
+Infinite Mario
+Pacman
+Deep Green pool playing robot
+MENACE
+Game Tree (2-player, deterministic)
+Summary of Games
+References
+Outline of Constraint Satisfaction Problems
+Constraint Satisfaction Problems (CSPs)
+Example: Map-Coloring
+Example: n-Queens Puzzle
+n-Queens Puzzle as a CSP
+Example: Cryptarithmetic
+Cryptarithmetic with Hidden Variables
+Real-world CSPs
+Varieties of constraints
+Backtracking Search
+Path Search vs Constraint Satisfaction
+Backtracking search
+Improvements to Backtracking search
+Minimum Remaining Values
+Degree Heuristic
+Least Constraining Value
+Forward checking
+Forward checking
+Constraint propagation
+Arc consistency
+Arc consistency
+Arc consistency
+Local Search
+Hill-climbing by min-conflicts
+Flat regions and local optima
+Inverted View
+Simulated Annealing
+Phase transition in CSPs
+Summary of CSP
+Outline of Evolutionary Robotics
+Charles Darwin
+Human Genome
+Evolutionary Computation
+Evolutionary Computation Paradigms
+Continuous Parameters (ES)
+Shock Physics
+Shock Actuators
+Shock Sensors
+Shock Inputs
+Shock Agent
+Shock Task
+Evolutionary Algorithm
+Evolutionary / Variational Methods
+OpenAI Evolution Strategies
+Evolutionary Robotics
+Aibo Walk Learning (Hornby)
+Guroo  Humanoid Walk Learning
+Evolving Virtual Creatures (Sims)
+Golem (Lipson)
+Evolved Antenna
+Outline of Logic
+Models and Planning
+Models and Planning
+Logical Reasoning for Wumpus World
+Knowledge bases
+Logical Reasoning for Wumpus World
+Reasoning about Future States
+Knowledge Based Agent
+Logic in general
+Entailment
+Models
+Entailment in the wumpus world
+Wumpus models
+Propositional Logic: Syntax
+Propositional logic: Semantics
+Propositional logic: Semantics
+Truth Tables
+Wumpus World Sentences
+Logical Equivalence and Inference Rules
+Logical Equivalence Rules
+Validity and Satisfiability
+Example
+Inference
+Conjunctive Normal Form
+Conversion to CNF
+Resolution
+Wumpus World Example
+Proof Methods
+Horn Clauses
+Forward chaining
+Backward chaining
+Forward vs Backward Chaining
+Satisfiability as Constraint Satisfaction
+Satisfiability as Constraint Satisfaction
+Summary of Logic
+Limitations of Propositional Logic
+Syntax of First Order Logic
+Logics in General
+Syntax of First Order Logic
+Sentences
+Universal Quantification
+Universal Quantification
+Existential Quantification
+Existential Quantification
+Properties of Quantifiers
+Fun with Sentences
+Fun with Sentences
+Deducing Hidden Properties
+Keeping Track of Change
+Describing Actions
+Describing Actions
+Describing Actions
+Searching for a Situation
+Searching for a Plan of Actions
+Summary of Logic
+Learning Agents
+Types of Learning
+Supervised Learning
+Supervised Learning  Issues
+Curve Fitting
+Ockham’s Razor
+Outliers
+Restaurant Training Data
+Decision Tree
+Generalization
+Choosing an Attribute
+Entropy
+Entropy and Huffmann Coding
+Entropy and Huffmann Coding
+Entropy
+Choosing an Attribute
+Induced Tree
+Laplace Error and Pruning
+Minimal Error Pruning
+Minimal Error Pruning
+Minimal Error Pruning
+Summary of Learning
+Outline of Perceptrons
+Biological Neurons
+The Big Picture
+Artificial Neural Networks
+McCulloch & Pitts Model of a Single Neuron
+Transfer function
+Linear Separability
+Perceptron Learning Rule
+Perceptron Learning Example
+Training Step 1
+Training Step 2
+Training Step 3
+Final Outcome
+Limitations of Perceptrons
+Multi-Layer Neural Networks
+Outline of Neural Networks
+Artificial Neural Networks
+McCulloch & Pitts Model of a Single Neuron
+Transfer function
+Linear Separability
+Perceptron Learning Rule
+Limitations of Perceptrons
+Multi-Layer Neural Networks
+Historical Context
+NN Training as Cost Minimization
+Local Search in Weight Space
+Key Idea
+Gradient Descent
+Chain Rule
+Forward Pass
+Backpropagation
+Neural Network - Applications
+ALVINN
+Training Tips
+Outline of Reinforcement Learning
+Supervised Learning
+Decision Tree
+Neural Network
+Learning of Actions
+Reinforcement Learning Agent
+Reinforcement Learning Framework
+Models of optimality
+Value Function
+Environment Types
+K-Armed Bandit Problem
+Exploration / Exploitation Tradeoff
+Exploration / Exploitation Tradeoff
+Temporal Difference Learning
+Q-Learning
+Theoretical Results
+Limitations of Theoretical Results
+Outline of Deep Learning
+Image Processing Tasks
+Limitations of Two-Layer Neural Networks
+MNIST Handwritten Digit Dataset
+CIFAR Image Dataset
+ImageNet LSVRC Dataset
+Vanishing / Exploding Gradients
+Activation Functions 
+Hubel and Weisel - Visual Cortex
+Convolutional Networks
+Convolutional Neural Networks
+Convolutional Filters
+LeNet trained on MNIST
+ImageNet Architectures
+AlexNet Details
+Enhancements
+Dropout 
+Residual Networks
+Dense Networks
+Processing Temporal Sequences
+Simple Recurrent Network (Elman, 1990)
+Back Propagation Through Time
+Hidden Unit Dynamics for a^nb^nc^n
+Long Range Dependencies
+Long Short Term Memory
+Statistical Language Processing
+word2vec 1-Word Context Model
+Linguistic Regularities
+Reinforcement Learning Framework
+Q-Learning
+Deep Q-Learning for Atari Games
+Asynchronous Advantage Actor Critic
+Other Deep Learning Topics
+Outline of Uncertainty
+Uncertainty
+Uncertainty in the Wumpus World
+Plannnig under Uncertainty
+Methods for handling Uncertainty
+Probability
+Making decisions under uncertainty
+Probability basics
+Random variables
+Propositions
+Why use probability?
+Syntax for propositions
+Prior probability
+Joint probability
+Probability for continuous variables
+Gaussian density
+Probabilistic Agents
+Example: Tooth Decay
+Joint Probability Distribution
+Inference by Enumeration
+Inference by Enumeration
+Conditional Probability
+Conditional Probability by Enumeration
+Independent Variables
+Independence
+Conditional independence
+Conditional independence
+Bayes’ Rule
+Example: Medical Diagnosis
+Bayes’ Rule and Conditional Independence
+Bayes’ Rule and Conditional Independence
+Wumpus World
+Specifying the Probability Model
+Manipulating Probabilities
+Fringe Models
+Using the Prior
+Summary of Uncertainty
+Timeline of Learning Games
+Game Tree (2-player, deterministic)
+Reinforcement Learning with BOXES
+Historical Perspective
+Computer Game Playing
+Backgammon
+Backgammon Neural Network
+Backpropagation
+How to Choose the Target Value
+Temporal Difference Learning
+TD-Gammon
+Why Did TD-Gammon Work?
+Chess
+Heuristic Evaluation for Chess
+Learning and Tree Search
+TD-Root
+TD-Leaf
+TreeStrap
+TreeStrap algorithm
+TreeStrap for Chess
+How Many Features ?
+Alpha-Beta Optimizations
+Attack/Defend Weights
+Trained Weights: Piece-Square
+Trained Weights: Piece-Square
+Summary of Learning Games

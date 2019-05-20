@@ -1,0 +1,23 @@
+1. Darwinian Evolution 2. Evolutionary Computation 3. Simulated Hockey 4. Evolutionary Robotics
+1. Darwins theory of Natural Selection was largely inspired by what he observed on a visit to the Galapagos Islands  different species of nches from different islands  unusual adaptations such as the marine iguana  breeding habits of turtles 2. Darwin was inuenced by:  Charles Lyells Principles of Geology  Thomas Malthuss Essay on Population  his grandfather Erasmus Darwin  his other grandfather, Josiah Wedgwood
+1. human genome consists of 3 billion DNA base pairs 2. each base pair can be one of four nucleotides  A (Adenine)  G (Guanine)  C (Cytosine)  T (Thymine) 3. approximately 30,000 genes, each coding for a specic protein 4. 97% of genome does not code for proteins  once thought to be useless junk DNA  now thought to serve some other function(s)
+1. use principles of natural selection to evolve a computational mechanism which performs well at a specied task. 2. start with randomly initialized population 3. repeated cycles of:  evaluation  selection  reproduction + mutation 4. any computational paradigm can be used, with appropriately dened reproduction and mutation operators
+1. Bit Strings (Holland  Genetic Algorithm) 2. S-expression trees (Koza  Genetic Programming) 3. set of continuous parameters (Swefel  Evolutionary Strategy) 4. Lindenmeyer system (e.g. Sims  Evolving Virtual Creatures)
+1. reproduction = just copying 2. mutation = add random noise to each weight (or parameter), from a Gaussian distribution with specied standard deviation  sometimes, the standard deviation evolves as well
+1. rectangular rink with rounded corners 2. near-frictionless playing surface 3. spring method of collision handling 4. frictionless puck (never acquires any spin)
+left skate right skate L(x ,y )L (x ,y ) R R 1. a skate at each end of the vehicle with which it can push on the rink in two independent directions
+1. 6 Braitenberg-style sensors equally spaced around the vehicle 2. each sensor has an angular range of 90 with an overlap of 30 between neighbouring sensors
+1. each of the 6 sensors responds to three different stimuli  ball / puck  own goal  opponent goal 2. 3 additional inputs specify the current velocity of the vehicle 3. total of 3  6 + 3 = 21 inputs
+sensor 0 sensor 1 sensor 2 sensor 3 sensor 4 sensor 5 { { { { { { puck enemy goal friendly goal puck enemy goal friendly goal puck enemy goal friendly goal puck enemy goal friendly goal puck enemy goal friendly goal puck enemy goal friendly goal velocity { longitudinal (left skate) longitudinal (right skate) lateral output vector z
+1. Perceptron with 21 inputs and 4 outputs 2. total of 4  (21 + 1) = 88 weights 3. our genome (for Evolutionary Computation) consists of a vector of these 88 parameters 4. mutation = add Gaussian random noise to each parameter, with standard deviation 0.05
+1. each game begins with a random game initial condition  random position for puck  random position and orientation for player 2. each game ends with  +1 if puck  enemy goal  -1 if puck  own goal  0 if time limit expires
+1. mutant  champ + Gaussian noise 2. champ and mutant play up to 5 games with same game initial conditions 3. if mutant does better than champ, champ  (1  )  champ +   mutant 4. better means the mutant must score higher than the champ in the rst game, and at least as high as the champ in each subsequent game
+
+1. initialize mean  = {i}1im and standard deviation  = {i}1im 2. for each trial, collect k samples from a Gaussian distribution i = i + i i where i  N (0, 1) 3. sometimes include mirrored samples i = i  i i 4. evaluate each sample  to compute score or tness F() 5. update mean  by    + (F()  F)(  )   = learning rate, F = baseline 6. sometimes,  is updated as well
+1. Evolutionary Strategy with xed  2. since only  is updated, computation can be distributed across many processors 3. applied to Atari Pong, MuJoCo humanoid walking 4. competitive with Deep Q-Learning on these tasks
+1. Aibo walk learning 2. Humanoid walk learning 3. Evolving body as well as controller 4. Simulation to Reality
+1. Learning done on actual robot.
+1. Learning done in simulator(s), then tested on actual robot.
+1. Body evolves as a Lindenmeyer system 2. Controller evolves as a neural network
+1. Evolved in simulation, tested in reality.
+One example of the use of Evolu- tionary Algorithms for a real world application is the antenna that was evolved by Hornby et al in 2006 for NASAs Space Technology 5 (ST5) mission.

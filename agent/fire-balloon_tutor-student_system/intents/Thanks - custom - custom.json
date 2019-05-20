@@ -1,0 +1,33 @@
+{
+  "id": "feca9960-b578-4518-b034-645c9228b65b",
+  "parentId": "223c87fa-f892-4bcc-8b89-0494773e4db0",
+  "rootParentId": "9844a391-67fe-4f0e-a0cf-77d45e565e54",
+  "name": "Thanks - custom - custom",
+  "auto": true,
+  "contexts": [
+    "Thanks-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Thanks.Thanks-custom.Thanks-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Bye~"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

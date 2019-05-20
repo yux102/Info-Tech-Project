@@ -1,0 +1,35 @@
+Outline
+Constraint Satisfaction Problems (CSPs)
+Example: Map-Coloring
+Example: Map-Coloring
+Example: n-Queens Puzzle
+n-Queens Puzzle as a CSP
+Example: Cryptarithmetic
+Cryptarithmetic with Hidden Variables
+Real-world CSPs
+Varieties of constraints
+Backtracking Search
+Backtracking example
+Backtracking example
+Path Search vs Constraint Satisfaction
+Backtracking search
+Improvements to Backtracking search
+Minimum Remaining Values
+Degree Heuristic
+Least Constraining Value
+Forward checking
+Forward checking
+Forward checking
+Forward checking
+Constraint propagation
+Arc consistency
+Arc consistency
+Arc consistency
+Arc consistency
+Local Search
+Hill-climbing by min-conicts
+Flat regions and local optima
+Inverted View
+Simulated Annealing
+Phase transition in CSPs
+Summary

@@ -1,0 +1,59 @@
+body {
+    font: 20px Helvetica, Arial;
+}
+
+#chatWindow {
+    background: rgb(215, 246, 250);
+    height: Calc(100vh - 35px);
+    overflow: auto;
+    transform: rotate(180deg);
+    direction: rtl;
+}
+
+#submitForm {
+    bottom: 0;
+    background: rgb(0, 225, 255);
+    padding: 3px;
+}
+
+#submitForm button {
+    background: rgb(17, 248, 0);
+    border-radius: 20px;
+}
+
+.anchorBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#messages {
+    margin-top: 10px;
+    padding: 30px 40px;
+    direction: ltr;
+}
+
+.message {
+    padding: 10px 10px 10px 10px;
+    max-width: 70%;
+    display: block;
+    border-radius: 20px;
+    white-space: pre-wrap;
+    transform: rotate(180deg);
+}
+
+.messageUser {
+    background: rgb(149, 255, 128);
+    margin-left: 0;
+}
+
+.messageBot {
+    background: rgb(255, 128, 128);
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.message input {
+    background: rgb(255, 184, 118);
+    border-radius: 20px;
+}

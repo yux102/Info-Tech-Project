@@ -1,0 +1,33 @@
+{
+  "id": "8b8fd5d3-1baa-4d42-8f3d-73a1182e4e59",
+  "parentId": "f11947c2-886c-41da-8474-64f1ff1d4418",
+  "rootParentId": "f11947c2-886c-41da-8474-64f1ff1d4418",
+  "name": "course code - next",
+  "auto": true,
+  "contexts": [
+    "coursecode-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coursecode.coursecode-next",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124733,
+  "fallbackIntent": false,
+  "events": []
+}

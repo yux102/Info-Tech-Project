@@ -1,0 +1,18 @@
+Outline
+Learning Agents
+Supervised Learning
+Decision Tree
+Neural Network
+Learning of Actions
+Reinforcement Learning Agent
+Reinforcement Learning Framework
+Models of optimality
+Value Function
+Environment Types
+K-Armed Bandit Problem
+Exploration / Exploitation Tradeoff
+Exploration / Exploitation Tradeoff
+Temporal Difference Learning
+Q-Learning
+Theoretical Results
+Limitations of Theoretical Results

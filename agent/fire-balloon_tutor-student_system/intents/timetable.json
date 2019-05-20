@@ -1,0 +1,41 @@
+{
+  "id": "da5e27dc-6479-425b-af2c-b37d6d8586f7",
+  "name": "timetable",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "215308b0-0b53-4e28-9531-2496a8926494",
+          "required": false,
+          "dataType": "@courses",
+          "name": "courses",
+          "value": "$courses",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Lectures: (Weeks 1-9, 11-13)\n-\u003eMonday 6-9pm in Central Lecture Block 7",
+            "time1",
+            "time2"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+Outline
+Origins
+Funding Problems
+Ada Lovelace
+Types of Games
+Key Ideas
+Why Games ?
+Samuels Checkers Program
+Game Tree (2-player, deterministic)
+Minimax
+Minimax algorithm
+Minimax and Negamax
+Negamax formulation of Minimax
+Properties of Minimax
+Reducing the Search Effort
+Heuristic Evaluation for Chess
+Pruning  Motivation
+- pruning example
+- pruning example
+- pruning example
+- pruning example
+- search algorithm
+Negamax formulation of - search
+Why is it called -?
+Properties of -
+Chess
+Checkers
+Go
+Stochastic games: backgammon
+Stochastic games in general
+Expectimax algorithm
+For Minimax, Exact values dont matter
+For Expectimax, Exact values DO matter
+Partially Observable games
+Innite Mario
+Pacman
+Deep Green pool playing robot
+MENACE
+Game Tree (2-player, deterministic)
+Summary
+References

@@ -1,0 +1,39 @@
+{
+  "id": "e20949e5-5e94-4a8e-868c-ae5fcc86f6a1",
+  "parentId": "e427223a-81a2-4878-8e47-6f236f40a3b0",
+  "rootParentId": "e427223a-81a2-4878-8e47-6f236f40a3b0",
+  "name": "Default Welcome Intent - custom-3",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-3",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-custom-3-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "So...... what\u0027s your name, darling~"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

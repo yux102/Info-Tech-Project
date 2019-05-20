@@ -1,0 +1,13 @@
+Motion Planning Approaches
+Occupancy Grid
+Potential Field
+Problem - Local Optima
+Vector Field Histogram
+Delaunay Triangulation
+Voronoi Diagram
+Minimizing Time instead of Distance
+Minimizing Time instead of Distance
+Optimal Trajectory Planning
+Parameterized Cubic Splines
+Robocup
+References

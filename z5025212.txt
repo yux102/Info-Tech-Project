@@ -1,0 +1,266 @@
+Week 1
+
+20/02/19
+Group formed. Spent the lab time setting up Github group and Trello. Decided to
+do project 1 because it was more clearly defined. Specifically, chose to do a
+course support system which includes course admin and course content.
+
+Week 2
+
+25/02/19
+Had group meeting. Discussed available tools and technologies to be used in the
+project. Lots of uncertainty because the lecturer hasn't given us access to
+UNSW's Academic Information Management System. We do not know if we can use it
+as a database or if we need to scrape data from it and create our own database.
+
+Will be creating web app using Flask for the server and simple HTML, CSS and JS
+for client. This is because we are not experienced with web frameworks but we
+are experienced with python.
+
+Discussed what to include in the proposal and divided work. Wrote up basic
+outline for epic user stories. I will be working on fleshing out epic user
+stories and writing user stories.
+
+27/02/19
+Asked questions about proposal to tutor. We were confused about what needed to
+be included in the proposal because the specifications were very vague but we
+were still not given clear direction. For example, "technical depth of the
+project and its scale" is worth 50% of the proposal but there is no information
+on what is to be included.
+
+01/03/19
+Had a 3 hour meeting to discuss progress on the project proposal because there
+was new information given during the lecture. An example project proposal was
+given to us which gave us a clearer idea of what direction to move in. Hao
+researched Dialogflow since the last meeting and taught the rest of us what he's
+learnt. Using this new information, we adjusted our framework to make better use
+of Dialogflow. We switched from Flask to Node.js for the server because at the
+moment it appears easier to use Dialogflow using Node.js.
+
+I had already finished most of the user stories so we took a brief look through
+it and discussed the scope of our project. We decided we'd start with a simple
+web app and focus on the back end first. When the back end is finished, we would
+then integrate other front end environments to our system such as Facebook
+Messenger and Trello.
+
+Week 3
+
+06/03/19
+Jia compiled our sections for the proposal into a single document. We went over
+what we needed to change with the tutor.
+
+08/03/19
+We each made the necessary changes to our sections and I went over the whole
+document fixing up typos and formatting before submitting it.
+
+Week 4
+
+11/03/19
+What was planned?
+Set up web server and client.
+
+What was finished?
+I finished setting up a basic web server and client. The server was set up using
+Express and Node.JS, and the client was made using HTML, CSS, and JS.
+
+Main issues
+I'm experienced with modifying web servers and clients but am not experience
+with setting them up. I did not know how to implement a RESTful API so I got
+around this by using the Socket.IO for communication between the client and
+server.
+
+What was not finished?
+
+What is planned for next period?
+Connect front end server to Dialogflow and backend.
+
+Week 5
+
+19/03/19
+What was planned?
+Connect front end server to Dialogflow and backend.
+
+What was finished?
+Found documentation on how to use Dialogflow API through Node.JS.
+
+Main issues
+Lack of experience in web development. Currently looking for examples of
+applications that has used the API.
+
+What was not finished?
+Currently still not able to connect front end with Dialogflow.
+
+What is planned for next period?
+Connect front end server to Dialogflow and backend.
+
+Week 6
+
+25/03/19
+What was planned?
+Connect front end server to Dialogflow and backend.
+
+What was finished?
+Dialogflow can receive request from front end and can send response back to web server.
+
+Main issues
+Unable to pass response from server to client. This is because JavaScript is
+asynchronous and the client does not wait for a response from the server.
+Instead, the client just believes the response is undefined.
+
+What was not finished?
+Pass Dialogflow response from web server to client.
+
+What is planned for next period?
+Pass Dialogflow response from web server to client.
+
+26/03/19
+What was planned?
+Pass Dialogflow response from web server to client.
+
+What was finished?
+Pass Dialogflow response from web server to client.
+Hosted app on Heroku.
+
+Main issues
+The asynchronous function issue was difficult to solve because our team has no
+members with experience in methods of handling this (e.g. callbacks and
+promises).
+Our file heirarchy was not suitable for Heroku so that has to be modified. The
+web app files used to be in their own folder but now has to be stored in root.
+
+What was not finished?
+Nothing
+
+What is planned for next period?
+Implement voice recognition on the web interface.
+
+Weel 7
+
+02/04/19
+What was planned?
+Implement voice recognition on the web interface.
+
+What was finished?
+Fixed display bug in user interface.
+
+Main issues
+Lack of time this week due to other assessments.
+
+What was not finished?
+Implement voice recognition on the web interface.
+
+What is planned for next period?
+Implement Facebook Messenger integration.
+Implementing voice recognition on the web interface is not urgent if voice works
+on other platforms such as Messenger or Google Assistant.
+
+Week 8
+
+09/04/19
+What was planned?
+Implement Facebook Messenger integration.
+
+What was finished?
+Implemented Facebook Messenger integration.
+
+Main issues
+Facebook Messenger chat bot requires approval from Facebook to be made public.
+Only testers have access to it at the moment but that will be enough for the
+demo.
+
+What was not finished?
+Nothing.
+
+What is planned for next period?
+Host Flask backend server online instead of locally.
+
+14/04/19
+What was planned?
+Host Flask backend server online instead of locally.
+
+What was finished?
+Host Flask backend server online instead of locally.
+
+Main issues
+Python dependencies were not given to me.
+
+What was not finished?
+Nothing.
+
+What is planned for next period?
+Improve user interface aesthetics.
+
+Week 9
+
+17/04/19
+What was planned?
+Improve user interface aesthetics.
+
+What was finished?
+Improve user interface aesthetics.
+
+Main issues
+Making the web page responsive for different screen sizes.
+
+What was not finished?
+Nothing.
+
+What is planned for next period?
+Display lecture notes PDFs on the web page.
+
+19/04/19
+What was planned?
+Display lecture notes PDFs on the web page.
+
+What was finished?
+Added auto-scroll to chat window.
+
+Main issues
+Didn't know how to do this properly.
+Circumvented problem by rotating chat window 180 degrees and prepending the
+message because the window stays at the top if you append.
+
+What was not finished?
+Display lecture notes PDFs on the web page.
+
+What is planned for next period?
+Display lecture notes PDFs on the web page.
+
+20/04/19
+What was planned?
+Display lecture notes PDFs on the web page.
+
+What was finished?
+Detect PDF names and pages from server response.
+Display lecture notes PDFs on the web page.
+
+Main issues
+Filtering responses from the server for PDF names and pages.
+
+What was not finished?
+There are bugs when clicking on 2 pages from the same PDF.
+The page does not change.
+
+What is planned for next period?
+Fix PDF display bug.
+
+Week 10
+22/04/19
+What was planned?
+Fix PDF display bug.
+
+What was finished?
+Fixed PDF display bug.
+Detect URLs in server response.
+Display web pages next to chat window.
+
+Main issues
+Some websites are HTTP only which cannot be acccess from our HTTPS website. We
+have to use the HTTP version of our website to allow the other HTTP websites to
+be loaded on our page.
+
+What was not finished?
+Nothing.
+
+What is planned for next period?
+Prepare for project demo.

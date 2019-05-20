@@ -1,0 +1,58 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "newagent-c66fe",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "f11947c2-886c-41da-8474-64f1ff1d4418",
+        "signInRequired": false
+      },
+      {
+        "intentId": "fc96e4de-2644-470b-b6ad-1219ed28df4b",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ecb0b129-11a3-45da-a723-8255f11b39a0",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Pacific/Noumea",
+  "webhook": {
+    "url": "https://fireballoonbackend.herokuapp.com/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [
+    "projects/newagent-c66fe/knowledgeBases/MTE4OTIwMTg2OTg4NjI0NjA5Mjg"
+  ],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

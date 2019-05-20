@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Fire Balloon Tutor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/frontend/chat.css">
+
+  <script src="/frontend/index.js"></script>
+
+  <!-- import socket io -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+
+<body onload="loadPage()" onresize="loadPage()">
+  <script>
+    $(function () {
+      var socket = io();
+      $('form').submit(function (e) {
+        e.preventDefault(); // prevents page reloading
+        socket.emit('user message', $('#submitFormInput').val());
+        $('#submitFormInput').val('');
+        return false;
+      });
+      socket.on('user message', function (msg) {
+        // $('#messages').append($('<li>').text(msg));
+        $('#messages').prepend($("<div class='row'>").append($("<div class='message messageUser'>").append($("<p>").text(msg))));
+      });
+
+      socket.on('bot message', function (msg) {
+        // $('#messages').append($('<li>').text(msg));
+
+        // split text into paragraphs if matcch
+        msgList = msg.split(/\r?\n\n/);
+
+        // var newMsg = document.createAttribute('div');
+        // newMsg.className = "row message messageBot";
+
+        // handle each paragraph as separate text bubble
+        for (var i = 0; i < msgList.length; i++) {
+          var regex = /\(see (.+?\.pdf) Page (\d+) \)/;
+          var matches = msgList[i].split(regex);
+          // var replaced = msgList[i].replace(regex, "");
+          if (matches && matches.length >= 3) {
+            // iterate through matches
+            // matches array format [pre-text, pdf_name, page_number]
+            for (var j = 0; j < matches.length; j += 3) {
+              if (matches[j]) {
+                console.log(j);
+                $('#messages').prepend($("<div class='message messageBot row'>").append($("<p>").text(matches[j])).append($('<input>').attr({ type: 'button', name: 'btn1', class: 'btn', value: "See " + matches[j + 1] + " page " + matches[j + 2], onclick: "openPDF('/pdfs/" + matches[1] + "#page=" + (parseInt(matches[j + 2]) + 1).toString() + "')" })));
+              }
+            }
+
+            // $(newMsg).append($("<input>").type("button").onclick("openPDF(" + matches[1] + ")"));
+            // $(newMsg).append($('<input>').attr({ type: 'button', name: 'btn1', value: 'a button', onclick: "displayPDF(" + matches[1] + ")" }));
+            // $('#messages').prepend($("<div class='message messageBot row'>").append($("<p>").text(replaced)).append($('<input>').attr({ type: 'button', name: 'btn1', value: matches[0], onclick: "openPDF('/pdfs/" + matches[1] + "#page=" + (parseInt(matches[2]) + 1).toString() + "')" })));
+          } else {
+            var regex = /(http.+$)/;
+            var matches = matches[0].split(regex);
+            if (matches && matches.length >= 2) {
+              for (var j = 0; j < matches.length; j += 2) {
+                if (matches[j]) {
+                  $('#messages').prepend($("<div class='message messageBot row'>").append($("<p>").text(matches[j])).append("<a href='#' onclick=openWeb('" + matches[j + 1] + "')>" + matches[j + 1] + "</a>"));
+                }
+              }
+            } else {
+              $('#messages').prepend($("<div class='message messageBot row'>").append($("<p>").text(matches[0])));
+            }
+          }
+        }
+
+        // document.getElementById("messages").prepend(newMsg);
+        // $('#messages').prepend(newMsg);
+
+        // var regex = /\(see (.+\.pdf) Page (\d\d) \)\n/g;
+        // regex = /(\d\d)/g;
+
+        // var matches = msg.match(regex);
+        // console.log(matches);
+
+      });
+    });
+  </script>
+
+  <div class="anchorBottom">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div id="chatWindow">
+          <div id="messages">
+
+          </div>
+        </div>
+        <form action="" id="submitForm">
+          <input id="submitFormInput" autocomplete="off" />
+          <button id="submitFormButton" class="btn">Send</button>
+        </form>
+      </div>
+
+      <div id="pdf" class="col-md-6">
+        <!-- <embed id="pdfDisplay" src="" width="100%" height="100%" /> -->
+        <iframe id="pdfDisplay" src="/frontend/default.html" width="100%" height="100%"> </iframe>
+      </div>
+      <!-- <button onclick="openPDF('/pdfs/Comp9414/week1a_Foundations.pdf')">click</button> -->
+    </div>
+  </div>
+
+  <!-- <embed src="/AllLectureNotes/Comp9414/week1a_Foundations.pdf" width="800px" height="2100px" /> -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

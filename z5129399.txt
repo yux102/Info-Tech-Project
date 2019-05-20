@@ -1,0 +1,178 @@
+Week 1
+
+Team formed.
+We created github group accounts, and choosed project 1 and second topic as our task.
+I read materials followed by given project's introduction(links). 
+Next week we plan to have a group meeting to exchange thoughts and make a draft for proposal.
+
+
+Week2
+
+This week we planed to have a meeting for starting the project and preparing for proposal.
+On Monday's meeting, We discussed possible structures and available techniques. Then we proposed some candidates of epics.
+The obstacles(mainly about proposal, discussed but unsoved): 
+                                      1, how deep can the user's questions ask to the agent about course content?
+                                      2, will database be provided
+                                      3, do we need to support Collaborative Learning
+The first and sencond problems we didn't get helps from lab hours. And we knew we do not need achieve Collaborative Learning by the tutor said.
+Next period we plan to do some research to work out a clear structure, as well as learn related knowledge and techniques.
+Meanwhile, complete the proposal by next Wednesday.
+
+We had an extra meeting on Friday. Before that, I have read documentation of DialogFlow and related materials. Then shared
+what I learned to my group members on the meeting. We decided to use Node.JS, instead of flask. We also decided to deploy our
+agent on more platforms, such as facebook messenger, google asistant, benefitting from powerful features of dialogflow. And I
+proposed a plan that solves how can we match user's intent with course content. But still had problem on it. Finaly we discuss
+and assigned tasks about proposal to each group member.
+
+I have completed the second half part of technical depth. We plan to integrate our works on next Monday.
+
+
+
+Week3
+
+The third week I planned to read papers provided in course website, so that we could finally determine a strategy that 
+can find a related part from extracted course content, w.r.t users questions. And I intended to construct a text preprosessing
+model by this week, preprocessing the raw course data.
+
+In the lab hours, tutor suggested us to modify our proposal. I made a new diagram that illustrates how the agent works more
+specifically. The new diagram is more clear and detailed in presenting work procedure. By Friday, we intergrated our works on
+proposal then submitted it.
+
+After my research, I was inspired by two essays: 'MOOC-O-BOT: Using Cognitive Technologies to Extend Knowledge Support in
+MOOCs' and 'Text Retrieval by Term Co-occurrences in a Query-based Vector Space'. Therefore, I decided to introduce a IR model
+as the core function, which could rank the content chunks. The chunk with highest score will be presented to users. Besides, I
+plan to introduce a learning factor adjusted by users feedback, with which the matching acucuracy could be improved.
+
+In the last two days of this week, I completed the preprocessing model then tested it.
+
+Next week I plan to construct the Keywords Extraction model.
+
+
+
+Week4
+
+This week my task is to construct the Keywords Extraction model and test it.
+
+On the weekly meeting we clarified our respective tasks in current stage. I told my group members the interfaces of the 
+APIs (backend) and the form the data needed, so we can make sure that different components can work together successfully.
+
+I encountered a issue that the keyword extracting threshold is difficult to determine. I am going to adjust it when we have
+more data.
+
+Next week I plan to build a tentative IR model and explore a method that uses intent matching of dialogflow in a brilliant
+way, improving the performance of the IR model. 
+
+
+
+Week5
+
+1. What was planned?
+Construct IR_model and do some research on how to introduce a learning factor that makes agent more intelligent. 
+
+2. What was finished?
+Both of two tasks planned.
+
+3. What were main issues?
+I met a problem that how to store previously constructed data and learning factor. I planned to store them using 
+database system, however in practice it slowed system's speed too much.
+
+4. What was not finished?
+No.
+
+5. What is planned for next period?
+Complete learning module and intergrate current works together with my group members.
+
+
+
+Week6
+
+1. What was planned?
+Complete learning module and intergrate current works together with my group members.
+
+2. What was finished?
+We intergrated our current works together and it could work successfully.
+
+3. What were main issues?
+I am really suffering from dry eye and blepharitis so I cannot use computer for a long time according to doctor's advice.
+I did not complete learning module but I read some materials about it.
+
+4. What was not finished?
+Learning module.
+
+5. What is planned for next period?
+Continue to complete learning module and make a draft of report for backend.
+
+
+Week7
+
+1. What was planned?
+Implement the learning module and write a draft of report for backend.
+
+2. What was finished?
+Both of these two planned tasks.
+
+3. What were main issues?
+Still cannot use computer for a long time. I wrote code for draft on paper and then typed them.
+
+4. What was not finished?
+No.
+
+5. What is planned for next period?
+Our new and full database is going to be ready for use next week. I am going to connect it to the backend and test
+our agent on new data.
+
+
+Week8
+
+1. What was planned?
+I am going to connect database to the backend and test our agent on new data.
+
+2. What was finished?
+connect to database, test with whole data, write part of report
+
+3. What were main issues?
+when testing, i found some problems with new data, I ask sophia to modify our data(she has completed it this week)
+and I also did some modifications od backend to fit new data
+
+4. What was not finished?
+No.
+
+5. What is planned for next period?
+prepare for presention, test system and fix it
+
+Week9
+
+1. What was planned?
+prepare for presention, test system and fix it
+
+2. What was finished?
+fix some small issues to backend so that user can have a good conversation experience.
+make the diagrams for report and presentation
+test system and fix problem.
+
+3. What were main issues?
+we put our system into the web server. however, sometimes due to the connection delay our system 
+may have errors. especially in reading files. so I add lots of exception handlings to solve it.
+
+4. What was not finished?
+No.
+
+5. What is planned for next period?
+prepare for presentation. continue to test system
+
+Week10
+
+1. What was planned?
+prepare for presentation. continue to test system
+
+2. What was finished?
+we fix some issues during the ysytem test and do much exercise for presentation
+
+3. What were main issues?
+no
+
+4. What was not finished?
+No.
+
+5. What is planned for next period?
+complete report

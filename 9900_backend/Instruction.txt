@@ -1,0 +1,22 @@
+A: 
+  1. User says 'Hi' ----->(dialogflow) 2. Match 'default welcome' intent ----->(webhook) 3. Call the
+funtion keywords_extracted_tfidf() from keywords_extraction.py -----> 4. function returns a string(welcome response) 
+to dialogflow.
+
+B:
+  1.User asks question ----->(dialogflow) 2. Match 'default fallback' intent ----->(webhook) 3. Call
+function ir_model(query) from IR_model.py, with user's question as the parameter -----> 4. function returns 
+the answers and a notification of requesting feedback to dialogflow in string.
+
+C:
+  1. User gives feedback ----->(dialogflow) 2. Match'feedback' intent ----->(webhook) 3. Call function
+update (feedback) from feedback.py, with user's original feedback as the parameter -----> 4. Improve 
+system (learning) from user's feedback and return a string to dialogflow.
+
+Training sentence in 'feedback intent'
+  'The best answer is 1.'
+  'Answer 2.'
+  'I prefer 3.'
+  '4.'
+  'I think 2 is the correct one.'
+  

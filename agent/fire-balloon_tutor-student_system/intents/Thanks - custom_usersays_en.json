@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2643f9f9-dbbe-4d4c-b4b9-da8aa3d022f3",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "416e2eb8-97d9-42ad-885a-b21a1b21dff3",
+    "data": [
+      {
+        "text": "no thank you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "e26ca497-ae18-43dd-8507-1e5e7dda7d73",
+    "data": [
+      {
+        "text": "no thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b474ee6b-4186-4b30-bb34-3a3edde1320e",
+    "data": [
+      {
+        "text": "that\u0027s all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2a647331-a6d2-4e99-8a15-a837ef7b5f1e",
+    "data": [
+      {
+        "text": "i don\u0027t have other question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "015c0bb6-4e19-413a-9ed5-bda981eb377e",
+    "data": [
+      {
+        "text": "no, thank you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d8331b0b-79b6-4f5f-b0e0-7513a9accdd9",
+    "data": [
+      {
+        "text": "no, thnaks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

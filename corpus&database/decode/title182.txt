@@ -1,0 +1,15 @@
+Outline
+Biological Neurons
+The Big Picture
+Articial Neural Networks
+McCulloch & Pitts Model of a Single Neuron
+Transfer function
+Linear Separability
+Perceptron Learning Rule
+Perceptron Learning Example
+Training Step 1
+Training Step 2
+Training Step 3
+Final Outcome
+Limitations of Perceptrons
+Multi-Layer Neural Networks

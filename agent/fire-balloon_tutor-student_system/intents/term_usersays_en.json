@@ -1,0 +1,150 @@
+[
+  {
+    "id": "8f26700b-91f4-47e2-ae6a-ef17bcdfc13d",
+    "data": [
+      {
+        "text": "what are the terms of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f53be979-2d78-4a71-9eb5-3709ea7fab45",
+    "data": [
+      {
+        "text": "what are the terms of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eed57b7c-e11c-40a6-a2b9-d8fce81cb66b",
+    "data": [
+      {
+        "text": "what are the terms of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ba13ba95-aafc-4e27-889d-8a4e4c38d547",
+    "data": [
+      {
+        "text": "what terms of ",
+        "userDefined": false
+      },
+      {
+        "text": "1531",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "15802d9d-5624-4396-a2b7-beb99e602f06",
+    "data": [
+      {
+        "text": "what terms of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "80ed6b28-6e6e-4826-88f1-3f021370ea54",
+    "data": [
+      {
+        "text": "what are the terms of it?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5b2b225f-1d9e-46af-98df-0dd796c0c6c8",
+    "data": [
+      {
+        "text": "what terms are the course offered?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "96c8cd50-e60f-4144-bdee-485ca1653e72",
+    "data": [
+      {
+        "text": "what terms are ",
+        "userDefined": false
+      },
+      {
+        "text": "9444",
+        "alias": "course",
+        "meta": "@courses",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

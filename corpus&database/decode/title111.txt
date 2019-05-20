@@ -1,0 +1,31 @@
+Course Materials through OpenLearning
+Lecturer-in-Charge
+Course Schedule
+Planned Topics
+What To Do (This Week)
+Prolog Lab Schedule
+Why Prolog?
+Resources
+Assessment
+Assignments
+Plagiarism
+Related Courses
+Foundations of AI
+Foundations of AI - Philosophy
+Foundations of AI - Mathematics
+Foundations of AI - Psychology
+Foundations of AI - Linguistics
+Foundations of AI - Engineering
+Foundations of AI - Neurobiology
+Foundations of AI - Neurology
+Foundations of AI
+Theories about Intelligence
+Articial Intelligence in Literature
+Articial Intelligence Origins
+Turing Test
+Turing Test
+IBM Watson DeepQA
+IBM Watson DeepQA
+Critiques of Turing Test (or AI in general)
+State of the art
+Summary

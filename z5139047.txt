@@ -1,0 +1,128 @@
+Week1
+Group formed and group members met to discuss how to write proposals. 
+We talked a lot about Epics which confuse us for a long time.We collected several questions to disscuss with tutor in Wednesday.
+
+week 2
+25/02/19 Group meeting. It is the first time we talked about the technical tools specificly. 
+Because I and Angelo used Flask before, we decided to use it for the server. We decided to learn dialogflow together and share our learning experience.
+
+01/03/19 Group meeting. This time we shared our Dialogflow learning experience, we knew about it more clearly. We decided to use Node.js instead of Flask because it is easier to use Dialogflow. 
+About proposal, we had a clear devision of it. I and Hal wrote the technical depth of the project part. 
+We planned to finish it on Monday and give each other advices.
+
+week 3
+We finfished our proposal. Tutor gave us some advices about proposals and we updated it. I wrote the technical depth of the project part which have something unclear. I made some changes to make it better.
+
+week 4
+
+What was planned?
+Trying to know how dialogflow works and trying to link dialogflow to our backend in order to return our own answers.
+
+What was finished?
+Knowing what is intent, what is entity and how dialogflow works.
+
+Main issues
+Don't quite understand what is action and how to link to our backend.
+
+What was not finished?
+Linking dialogflow to our backend.
+
+What is planned for next period?
+Finding out how to link to backend and return our answers.
+
+week 5
+
+What was planned?
+Building dialogflow python client to use other APIs and easier to link frontend.
+
+What was finished?
+I finished to build a python client which can receive the questions and return our own answers.
+
+Main issues
+Finding a issue about implementing Dialogflow to other platforms by python client. It is not easy to deploy to other platforms by python client.
+
+What was not finished?
+
+What is planned for next period?
+Using webhook to deploy to other platforms.
+
+week 6
+
+What was planned?
+Using webhook and Flask to connect other API.
+
+What was finished?
+I succeeded to receive the post request from dialogflow and return our own answers.
+
+Main issues
+Need to use ngrok to receive post request for localhost. It is a new part for me and also a useful tool.
+
+What was not finished?
+
+What is planned for next period?
+Writing the context part of dialogflow.
+
+week 7
+
+What was planned?
+Using dialogflow follow-up intents to remember the user question.
+
+What was finished?
+According to setting up the follow-up intents, we can remember the course that user asked and answer other questions.
+
+Main issues
+If user ask follow-up questions directly, it can not match the follow-up intent. User should ask the course question first, then ask the follow-up questions.
+
+What was not finished?
+
+What is planned for next period?
+Finding other methods to make context better.
+
+week 8
+
+What was planned?
+Using python to write context by myself in order to dead with different questions. Setting intents to match more questions.
+
+What was finished?
+I succeeded to fullfill the context part and can answer different kinds of questions like what course in time1 and place1.
+Any two necessary key words konwn can answer questions about other information.
+
+Main issues
+Only can answer the questions about outline and only have 3 courses.
+
+What was not finished?
+
+What is planned for next period?
+Writing the report and setting more intents.
+
+week 9
+What was planned?
+Writing the report and setting more intents. Adding more context information to backend.
+
+What was finished?
+I write the report about introduction of my module, implementation challenges and descriptions of Flask. I also added course overview, study level and offering terms into the context.
+
+Main issues
+If user need more information about course outline, he can go to course website to find it.
+
+What was not finished?
+
+
+What is planned for next period?
+Preparing the presentation.
+
+Week 10
+What was planned?
+Presentation and finish the report.
+
+What was finished?
+We finish presentation and add more information to the report.
+
+Main issues
+No
+
+What was not finished?
+No
+
+What is planned for next period?
+No

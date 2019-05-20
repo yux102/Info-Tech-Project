@@ -1,0 +1,205 @@
+[
+  {
+    "id": "01419a86-777d-44a2-a15b-3b25fccd7f8b",
+    "data": [
+      {
+        "text": "what location is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3d46c46b-2e36-4765-b733-b58e6cd7ccbe",
+    "data": [
+      {
+        "text": "what is the location of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f83961c8-77a5-40c2-9fbc-698065df350e",
+    "data": [
+      {
+        "text": "what is the location of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8c27d27d-678a-4605-bb5b-255352a74634",
+    "data": [
+      {
+        "text": "what is the location of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9f2423d9-da62-4fbf-9488-0ae4f695c929",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f15f6b4a-0708-4840-ae94-9184a131d0ed",
+    "data": [
+      {
+        "text": "what place of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a6d1e586-34a7-4b87-a082-ecc1ad60f36d",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7662d37d-2c50-4a7a-ae3a-944e953bdbaf",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "899c26dd-0f7b-4f94-aa3d-ca52808950c0",
+    "data": [
+      {
+        "text": "what is the place of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8697e6bd-4de5-4801-8356-9e1c5616e8dc",
+    "data": [
+      {
+        "text": "what is the place of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "032aaed4-1160-4ce3-98e1-ec1b987c5d69",
+    "data": [
+      {
+        "text": "what is the place of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "48c76d01-caca-481f-b7f1-4cc74e936774",
+    "data": [
+      {
+        "text": "where is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "278b8f91-c86f-487b-a7a6-c3ac4c7cd917",
+    "data": [
+      {
+        "text": "what place is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

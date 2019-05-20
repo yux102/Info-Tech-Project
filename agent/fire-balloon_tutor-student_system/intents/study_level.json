@@ -1,0 +1,36 @@
+{
+  "id": "dfbc6615-8157-4648-b381-bf41608bab32",
+  "name": "study_level",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a4da13fe-8230-4f2c-93f8-4806b77dc80f",
+          "required": false,
+          "dataType": "@courses",
+          "name": "course",
+          "value": "$course",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ff865273-46cd-46ce-b88d-d93a3f94881d",
+  "parentId": "f11947c2-886c-41da-8474-64f1ff1d4418",
+  "rootParentId": "f11947c2-886c-41da-8474-64f1ff1d4418",
+  "name": "course code - custom",
+  "auto": true,
+  "contexts": [
+    "coursecode-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coursecode.coursecode-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

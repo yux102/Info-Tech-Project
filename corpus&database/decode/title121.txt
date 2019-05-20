@@ -1,0 +1,25 @@
+Examples of AI Tasks
+Specifying and Classifying Tasks
+Agents as functions
+The PEAS model of an Agent
+Example: Playing Chess
+Example: Automated Taxi
+Example AI Environment - Wumpus World
+Wumpus World PEAS description
+Classifying Tasks
+Environment Types
+Simulated vs Situated or Embodied
+Simulated vs Situated or Embodied
+Static vs Dynamic
+Discrete vs Continuous
+Fully Observable vs Partially Observable
+Deterministic vs Stochastic
+Episodic vs Sequential
+Known vs Unknown
+Single-Agent vs Multi-Agent
+Wumpus World
+Dice Games (Backgammon)
+Card Games (Poker, Rummy, Mahjong)
+Situated and Embodied Cognition
+Situated vs Embodied
+Summary

@@ -1,0 +1,27 @@
+Timeline
+MENACE
+Game Tree (2-player, deterministic)
+Reinforcement Learning with BOXES
+Historical Perspective
+Computer Game Playing
+Backgammon
+Backgammon Neural Network
+Backpropagation
+How to Choose the Target Value
+Temporal Difference Learning
+TD-Gammon
+Why Did TD-Gammon Work?
+Chess
+Heuristic Evaluation for Chess
+Learning and Tree Search
+TD-Root
+TD-Leaf
+TreeStrap
+TreeStrap algorithm
+TreeStrap for Chess
+How Many Features ?
+Alpha-Beta Optimizations
+Attack/Defend Weights
+Trained Weights: Piece-Square
+Trained Weights: Piece-Square
+Summary

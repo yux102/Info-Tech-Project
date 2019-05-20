@@ -1,0 +1,27 @@
+{
+  "id": "ecb0b129-11a3-45da-a723-8255f11b39a0",
+  "name": "weight inhibit decay",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "◮ problem: weights “blow up”, and inhibit further learning \n◮ mathematical theory: Bayes’ rule\n◮ solution: add weight decay term to error function"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

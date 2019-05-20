@@ -1,0 +1,79 @@
+1. Analysis 2. Design 3. Implementation 4. Testing 5. Operation & maintenance
+1.Understand problem definition: Identify behavioural characteristics 2. Abstract problem to define domain model: Identify structural characteristics 3. Functional: Inputs, Outputs 4. Non-functional: Performance, Security, Quality, Maintainability, Extensibility 5. Design artefacts: Use-case modelling, User stories
+1. How to implement requirements 2. Artefacts: Domain model
+Coding the design in a programming language to deliver a software product
+1. Process of verifying that the system works correctly and realises the goals 2. Unit tests: Testing of individual components 3. Integration tests: Testing the whole system 4. User acceptance tests: Testing that the system achieves client’s requirements
+1. Running system 2. Fixing defects 3. Adding new functionality
+1. Elaborate processes 2. Iterative and incremental processes 3. Waterfall 4. Rational Unified Process (RUP) 5. Agile manifesto 6. Agile drawbacks
+1. Rigid, plan-driven 2. Documentation heavy 3. Unidirectional: Each step must be finished before moving onto the next
+1. Break big problem down into smaller tasks 2. Prioritise tasks 3. Each iteration results in progress in overall product 4. Receive feedback from client at the end of each iteration: Able to change course with improved understanding of the problem 5. Working product as soon as possible 6. Progressively deepen understanding of target product
+1. Linear, sequential project life-cycle 2. Detailed planning 3. Each phase must be fully completed, documented and signed off before moving onto the next 4. Simple to understand and manage: Project visibility, Easy to tell progress 5. Suitable for projects 6. Cons
+1. Identify problem: Document, Design 2. Implementation: Tasks identified, Scoped, Scheduled 3. Development cycle 4. Testing cycle
+1. Well-defined and unambiguous requirements that will not change: Banks 2. Mission-critical applications: Medical equipment, NASA 
+1. No working software produced until late into software life-cycle 2. Not flexible: (1) No support for changing requirements (2) Ideas for implementation need to be identified upfront (3) Difficult to retract or change requirements that were not thought out well 3. Heavy documentation 4. Incurs large management overhead 5. Not suitable when requirements are at risk of changing
+1. 4 major phases 2. Organised into disciplines 3. Overall RUP appears sequential but work is done on each disciple each phase. 4. Not inherently documentation centric
+1. Inception:(1) Identify: Scope, Major players, Resources, Architecture, Risks, Estimates costs 2. Elaboration:(1) Understand the problem in more detail (2) Figure out required architecture and resources 3. Construction: Design, Build, Test 4. Transition: Release software to production 
+1. Development:(1) Business modelling and requirements: Understand domain, Develop high-level requirements, Model and document vision and requirements (Use-case model, Domain model and Business process model), Analysis, design and implementation (2) Test (3) Deployment 2. Support:(1) Configuration and change management (2) Project management (3) Environment
+1. Individuals and interactions over processes and tools 2. Working software over comprehensive documentation 3. Customer collaboration over contract negotiation 4. Responding to change over following a plan
+1. Daily stand up meetings and close collaboration: (1) Not ideal for development outsourcing (2) Clients and developers who are separated geographically (3) Business clients who don’t have the resources 2. Emphasis on modularity, incremental development, and adaptability: Not suited to clients desiring contracts with firm estimates and schedule 3. Reliance on small self-organised teams: Difficult to adapt to large projects: Many stakeholders with different needs, Neglects need for leadership 4. Lack of comprehensive documentation: Difficult to maintain or add to software without original members 5. Requires highly experienced software engineers: Can work independently and interface effectively with business user
+1. Customer requirements 2. No answer to this, take parts from each
+1. Focuses on providing highest value in shortest time 2. Acknowledges changes to requirements as natural and inescapable 3. Values adaptability to changing requirements over defining all requirements at the beginning: More realistic and cost-effective 4. Aims to lower cost of change by introducing a set of basic principles (high quality, simple design, and continuous feedback) and practices to bring more flexibility to changes 5. High quality 6. Focusing on the stories in the current iteration keeps the designs simple and expressive 7. Migrate the design from iteration to iteration to be the best design for the current set of stories 8. Techniques used: Spike solutions, Prototypes, CRC cards
+1. Pair programming: One codes while other reviews 2. Continuous integration: Code is checked and integrated several times per day 3. Sustainable pace 4. Open workspace 5. Refactoring: Series of tiny transformations to improve structure of the system 6. Test-driven development: Unit-testing, User acceptance testing
+1. Simplest possible design for current user stories 2. Don’t add unneeded infrastructure 3. Avoid duplication of code
+1. Developers: (1) Pair programming (2) Testing (3) Continuous integration 2. XP team: Daily stand-up meetings: Progress and obstacles 3. Customers: (1) User acceptance scores (2) Demonstrations 4. XP developers deliver value to customers (1) Working software progressively (2) Accept changed based on customer feedback
+1. Initial exploration 2. Release plan 3. Iteration planning 4. Task planning
+1. Requirements change 2. Mitigate risk and increase likelihood of success 3. Ideal for group sizes 2-12 4. Requires extended development team collaborating closely: Managers, Developers, Customers 5. Emphasis on testability: Automated unit and acceptance tests 6. Delivers greater productivity
+1. Functional requirements 2. Non-functional requirements 3. Formulate well-defined problem 4. Who is involved 5. Phases 6. Test driven development (TDD) 7. UML diagrams
+1. Inputs 2. Behaviour 3. Outputs
+1. Quality attributes 2. Security 3. Reliability 4. Maintainability 5. Efficiency 6. Portability 7. Scalability
+1. Set of criteria which proposed solutions will either definitely solve of fail 2. Description of resources and components at disposal to solve problem
+1. End users: Functionality 2. Business owner: Cost and Time 3. Architects and developers: Implementation
+1. Requirements gathering 2. Requirements analysis 3. Requirements specification 4. Requirements validation
+1. Requirements written such that they can be individually tested 2. User writes user acceptance tests
+1. Structure diagrams: (1) Static structure of system and parts (2) How everything is related to each other 2. Behaviour diagrams: Dynamic behaviour of objects in the system
+1. Key principles 2. CRC
+1. Abstraction: Focus on common properties and behaviours of objects 2. Encapsulation 3. Inheritance
+1. Hide attributes 2. Ensure consistent state 3. Increases usability: Change in implementation doesn’t affect rest of system 4. Inheritance
+1. Class 2. Responsibility 3. Collaborator
+1. Loose coupling 2. High cohesion 3. Good design properties 4. SOLID principles 5. Strategy pattern 6. Model View Controller
+1. Degree of interdependence between components or classes 2. High coupling occurs when component A depends on internal workings of component B 3. A affected by internal changes to B 4. “zero-coupled” classes not usable
+1. Degree to which all elements of a component or class or module work together as functional unit 2. Avoid putting all responsibility in single class to avoid low cohesion
+1. Extensible 2. Reusable 3. Maintainable 4. Understandable 5. Testable
+1. Single Responsibility Principle: Class should only have 1 reason to change 2. Open Closed Principle: Software entities should be open for extension but closed for modification 3. Liskov Substitution Principle 4. Interface Segregation Principle 5. Dependency Inversion Principle
+1. High level modules should not depend on low level modules 2. Both should depend on abstractions
+1. Abstraction 2. Supports multiple views of same data on different platforms at same time 3. Enhances testability
+1. Complexity 2. Cost of frequent update: Model that undergoes frequent change could flood views with update requests
+1. Error that happens during execution of program 2. Causes program to terminate abruptly 3. Causes: (1). Invalid input (2). Out of memory (3). Resources not available (e.g. file) 4. Different to program bugs 5. Exception handling handles these situations gracefully
+1. Unit test -> integration test -> system test 2. Black box testing 3. White box testing 4. Regression testing 5. Test coverage 6. Code coverage
+Using set of inputs without looking at implementation
+Using test data with knowledge of implementation: (1) System architecture (2) Algorithms used (3) Program code
+Verifying software that was previously developed and tested still performs after changes made
+Degree to which specification has been tested
+1. Degree to which source code has been tested 2. Equivalence testing
+Divide space of all possible inputs into equivalence groups such that the program “behaves the same” on each group 3. Boundary testing 4. Control-flow testing 5. State-based testing
+Test boundary values of input parameters
+1. Statement coverage: Each statement executed at least once by some test case 2. Edge coverage: Every edge of control flow traversed at least once by some test case 3. Condition coverage: Every condition takes TRUE and FALSE outcomes at least once in some test case 4. Path coverage: Finds number of distinct paths through the program to be traversed at least once
+1. Comparison with object-oriented model 2. Relational data model
+1. Entity is like object instance 2. Entity set is like class 3. ER modelling doesn’t consider operations (methods) 4. Primary key attributes underlined 5. Weak entity set
+1. Has no key of its own 2. Exists only because of association with strong entities
+Tuple (row): Set of values (attribute or column values) 2. Relation (table): Set of tuples 3. Database: Set of relations (table)
+Relational model: 1. Uses relations to model entities and relationships 2. No composite or multi-valued attributes 3. No object-oriented notions
+1. Architecture 2. Design 3. Architectural style defined 4. Well known architectural styles 
+Focuses on non-functional requirements and decomposition of functional requirements
+Focuses on implementing functional requirements
+1. Components: Classes, Databases, Tools, processes 2. Connectors: Function call, Remote procedure call, Event broadcast 3. Constraints: (1) Define where data may flow in and out of components/connectors (2) Topological constraints that define arrangement of components and connectors
+1. Client/server 2. Peer-to-peer 3. Pipe-and-filter 4. Central repository (database) 5. Layered
+1. Share data between client and service provider 2. Distributed geographically across different locations
+1. Resolve network congestion and single point of failure 2. Each peer component functions as both server and client 3. Information distributed among all peers 4. Peer may need to communicate with other peers to locate information 5. benefits 6. Weaknesses
+1. More efficient because clients provide resources 2. Capacity of network increases with number of clients 3. More robust: Immune to single point of failure
+1. Architectural complexity 2. Distributed resources not always available
+1. Process and transform data streams 2. Component: filter 3. Connector: pipe 4. Benefits 5. Weaknesses
+1. Easy to understand 2. Decouples 3. Supports reuse: Filters can be reused 4. Flexible and easily maintained 5. Supports concurrent processing of data streams
+Intermediate filter crashing stops whole system
+1. Complex body of knowledge needs tto be established, persisted, and manipulated 2. Components: data repository, data accessors 3. Connectors: read/write mechanism 4. Specialisations 5. Benefits 6. Weaknesses 
+1. Blackboard architecture: (1). Accessor changes data on repository (2) All other components notified (3) Requires active date repository 2. Passive data repository: Components access repository as and when they want
+1. Efficient 2. Centralised management of repository: (1) Concurrency access and data integrity (2) Security (3) Backup
+1. All independent components must agree upon repository date model 2. Distribution of data 3. Connectors implement complex infrastructure
+1. Separates deployment of software components into multiple logical layers so that each tier can be located on a physically separate computer 2. Benefits 3. Weaknesses
+1. Modular 2. Distribution of roles and responsibilities among several independent machines 3. Easier maintenance and reuse 4. Deployment to different servers enhances security, scalability, performance
+Complex and expensive

@@ -1,0 +1,33 @@
+{
+  "id": "c23f599e-0963-4d02-8d7d-6f2549c82532",
+  "parentId": "0611a1e5-f227-43a9-97b3-6c389b02fec1",
+  "rootParentId": "bfa1d36b-6764-4fe4-93d5-857a1c3931bb",
+  "name": "Default Fallback Intent - custom - custom",
+  "auto": true,
+  "contexts": [
+    "DefaultFallbackIntent-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultFallbackIntent.DefaultFallbackIntent-custom.DefaultFallbackIntent-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks for using Fire Balloon, hope to see you again soon! Bye~"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

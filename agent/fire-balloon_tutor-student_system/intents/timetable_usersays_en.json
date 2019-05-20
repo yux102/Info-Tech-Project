@@ -1,0 +1,221 @@
+[
+  {
+    "id": "de39d9cc-6fd8-4480-adfc-7b6e6fb0aa7b",
+    "data": [
+      {
+        "text": "what timetable is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b0b1ac87-17ce-4c5a-8f6b-22814e8a92ad",
+    "data": [
+      {
+        "text": "when is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bac317bb-36b0-4991-860a-deb92c2a8841",
+    "data": [
+      {
+        "text": "what is the timetable of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "218c4e5f-0295-4b4a-82a0-671d09bd356e",
+    "data": [
+      {
+        "text": "what is the timetable of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "512caf87-05de-490e-8971-a3ca27a9dea6",
+    "data": [
+      {
+        "text": "what is the timetable of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "30bd0f9d-4542-48e3-af4c-42b4d9d0cefc",
+    "data": [
+      {
+        "text": "when is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "77c9f9ae-02bc-4485-9c3c-af19bdc8aa65",
+    "data": [
+      {
+        "text": "when is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6cee2b67-3e84-4e33-878c-86bc6613cbca",
+    "data": [
+      {
+        "text": "what time is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e698a5e2-5f66-4e02-8ddb-ca4daa409b99",
+    "data": [
+      {
+        "text": "when i have this course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4b8c5612-3ebe-4edb-88ae-6802f38c721d",
+    "data": [
+      {
+        "text": "when is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1c7d8b55-f59e-4fe1-9b79-875f1872d379",
+    "data": [
+      {
+        "text": "what time is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cb4e677f-1d46-468e-828a-83c0601684b2",
+    "data": [
+      {
+        "text": "what time table of this course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3563c6f4-5064-40fd-b620-866aa1685d52",
+    "data": [
+      {
+        "text": "what time is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7f3ec909-607d-4b7d-a76a-0c69d4aa2729",
+    "data": [
+      {
+        "text": "which day i should go to school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4dc269e8-9618-413e-b183-551a18aa749f",
+    "data": [
+      {
+        "text": "what time is ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

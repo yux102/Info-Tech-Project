@@ -1,0 +1,39 @@
+{
+  "id": "0611a1e5-f227-43a9-97b3-6c389b02fec1",
+  "parentId": "bfa1d36b-6764-4fe4-93d5-857a1c3931bb",
+  "rootParentId": "bfa1d36b-6764-4fe4-93d5-857a1c3931bb",
+  "name": "Default Fallback Intent - custom",
+  "auto": true,
+  "contexts": [
+    "DefaultFallbackIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultFallbackIntent.DefaultFallbackIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "DefaultFallbackIntent-custom-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool, do you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

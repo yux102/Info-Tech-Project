@@ -1,0 +1,68 @@
+[
+  {
+    "id": "69f125f0-3465-40b1-97ef-666a16027343",
+    "data": [
+      {
+        "text": "how many courses do you have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c7393bf4-1bce-4472-a4be-c9d35dd001a9",
+    "data": [
+      {
+        "text": "what courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "162739c7-f40b-4b29-8aea-ef5b90d04b3e",
+    "data": [
+      {
+        "text": "course names",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4fde5219-12c1-48ef-a214-e55434bb5b65",
+    "data": [
+      {
+        "text": "what are the course codes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "28a64263-941f-4f4c-b884-7e5c7d8939bf",
+    "data": [
+      {
+        "text": "what courses do you have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8859efa0-a7cc-49ff-ac13-05acef2030ea",
+    "data": [
+      {
+        "text": "course code",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

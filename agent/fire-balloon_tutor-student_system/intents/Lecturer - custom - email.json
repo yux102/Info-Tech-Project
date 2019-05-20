@@ -1,0 +1,33 @@
+{
+  "id": "6919faea-349b-4bfe-b3f1-055e5944a9c9",
+  "parentId": "fc96e4de-2644-470b-b6ad-1219ed28df4b",
+  "rootParentId": "fc96e4de-2644-470b-b6ad-1219ed28df4b",
+  "name": "Lecturer - custom - email",
+  "auto": true,
+  "contexts": [
+    "Lecturer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Lecturer.Lecturer-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "His email address is blair@cse.unsw.edu.au."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

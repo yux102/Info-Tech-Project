@@ -1,0 +1,86 @@
+[
+  {
+    "id": "b704a8a7-c945-44cb-8da0-5964a3a41ad3",
+    "data": [
+      {
+        "text": "what is the overview of it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "84842098-3ba6-4957-b8e1-2afd51685415",
+    "data": [
+      {
+        "text": "show me the course overview",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c6879c26-0b89-4b6b-8219-61cf6593f79f",
+    "data": [
+      {
+        "text": "what is the overview of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp1531",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4ab4331a-ed85-4d58-8201-b32de6ede882",
+    "data": [
+      {
+        "text": "what is the overview of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9414",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "41d2dd93-31f0-4052-9c58-8f25b8ee414d",
+    "data": [
+      {
+        "text": "what is the overview of ",
+        "userDefined": false
+      },
+      {
+        "text": "comp9444",
+        "alias": "courses",
+        "meta": "@courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bd1a90a3-dca6-49c7-bdd1-37b920179eb0",
+    "data": [
+      {
+        "text": "what is the course overview",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

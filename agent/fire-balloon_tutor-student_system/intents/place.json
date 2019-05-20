@@ -1,0 +1,43 @@
+{
+  "id": "f5f02aa7-d296-4ac2-804c-732915737717",
+  "name": "place",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "54339870-038e-401d-8325-14f57b79a3fa",
+          "required": false,
+          "dataType": "@courses",
+          "name": "course",
+          "isList": false
+        },
+        {
+          "id": "54f5503d-e37d-4d5b-9e8c-2ce45397eab1",
+          "required": false,
+          "dataType": "@courses",
+          "name": "courses",
+          "value": "$courses",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "place1"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

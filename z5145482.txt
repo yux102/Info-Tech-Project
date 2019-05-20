@@ -1,0 +1,102 @@
+Week 1 
+20/02/2019
+Group formed. I created the Trello & GitHub accounts and joined our team. We chose our team's name which is Fire Balloon.
+We also decided to achieve project 1 and the topic that is student-tutor support system. 
+Besides, we have booked a cats room that we can have a discuss about our proposal draft next week.
+
+Week 2
+25/02/2019
+We booked a cats room and had a meeting about our proposal including the software tools and the achieving goals. 
+I also wrote our notes on the whiteboard. However, there are some questions we need to check with tutor.
+For example, when will we get the database that supported by professor and what is the format of the given data?
+We also confused about how to train the data by using machine learing.
+Overall, we made a framework of our project.
+27/02/2019
+In the lab, we discussed with tutor and then divided the work of our proposal. I was assigned to write background and aim.
+Therefore, I planed to read more essays and learn more about conversational agents.
+01/03/2019
+We had an extra meeting on Friday because we were worried about our proposal was a little behind comparing with other groups.
+This meeting really did a big progress of our proposal. Firstly, Hal shared his experiences about learning dialogflow.
+Hal also wrote a guide for us in Chinese. Secondly, we adjusted the framework of our project and decided to use node.js
+instead of flask. Besides, Angelo has already written some epics and we discussed. 
+I also read the template of the proposal which is given by our professor. 
+After that, Tianyu and I read the documents of dialogflow together.
+
+Week 3
+04/03/2019
+We planned to finish our proposal's draft on Monday and I integrated all team partners' work in one file. 
+We will make some modification and discuss it on Wednesday before the lab.
+06/03／2019
+In this lab, tutor talked a lot with us and we need to do a lot of modification. For my part, firstly, I must add the
+references for the background. Secondly, I need to write the aim more specificly. I plan to finish these work before Friday. 
+We also should add a picture of our framework for our project, this work was assigned to Hal.
+08/03/2019
+This day is the last day of the submission for our proposal, I sent my updated parts to Hal and Angelo did the last
+integration of our proposal. He really did a great work.
+
+Week 4
+12/03/2019
+Aftering submitting our proposal, we had a meeting for the next step of our project. 
+We assigned some specific tasks to everyone for achieving our project. 
+My mission is to choose a specific course and learn to use the web scraper to extract all the content of this course. 
+After that, I should learn how to construct a corpus. I plan to do more research of these parts and send the corpus to Hal
+as soon as I can.
+13/03/2019
+We all have some progress in our own parts. For me, I chose the course COMP9444 and started to extract the content.
+
+Week 5
+19/03/2019
+We had a meeting for the next day's demo of our project. We talked about our schedules of our own parts and what should we 
+do for the following tasks. In my parts, my next step is to classify the content in the corpus for Hal's training data.
+20/03/2019
+In the lab time, we know that we are far from what we want to achieve. My job is to work with the data and make the data 
+more classifiable and clear as I can.
+
+Week 6
+26/03/2019
+Group meeting before lab, everyone did a lot since last week. Now, it is the time for me to create a database and upload 
+all the data to the database.
+27/03/2019
+In the lab, tutor told us we need to do more course as we can, it is not enough for only one course. Therefore, we need 
+more courses, Angelo and I decided to use the COMP9414 and COMP1531. For my part, I will extract all the content of these
+two courses.
+
+Week 7
+03/04/2019
+In the lab, tutor told me that the way I extract data does not make sense, I need to change my way of extracting data.
+By the way, we need to start to write the report draft from this week.
+05/04/2019
+I tried many ways to extract data from a pdf file to a txt file. Finally, I find the package "pdfminer" is really good!
+I read a lot of documents of "pdfminer", I figure out how it works on its objects and I finished my part successfully.
+
+Week 8
+10/04/2019
+In the lab, tutor told us that we had a lot need to be improved. I find the format of some special symbols in my part is
+not very good. This week, I am going to fix this problem and I will start to write our final report. We decided to write
+our own part seperately and I integrated the whole draft.
+
+Week 9
+17/04/2019
+In this lab, I showed our draft for final report to our tutor and tutor told us that we should improve the part about the 
+differences between our proposal and our achievement. Besides, for my part, I added the pageid to every answer for the 
+consideration of user friendly.
+
+Week 9
+19/04/2019
+We had a meeting about our final presentation and some improvement of our project. In this meeting, I was assigned to do the 
+live demo part for our final presentation. There are really a lot work to prepare, like how to choose the questions and how
+to express them well.
+
+Week 10
+22/04/2019
+This is our second last meeting for our project. We simulated many times about our presentation and modified a lot to perfect
+our presentation. I tried to speak fast to reduce the time of live demo.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Outline
+Charles Darwin
+Human Genome
+Evolutionary Computation
+Evolutionary Computation Paradigms
+Continuous Parameters (ES)
+Shock Physics
+Shock Actuators
+Shock Sensors
+Shock Inputs
+Shock Agent
+Shock Agent
+Shock Task
+Evolutionary Algorithm
+Evolved Behavior
+Evolutionary / Variational Methods
+OpenAI Evolution Strategies
+Evolutionary Robotics
+Aibo Walk Learning (Hornby)
+Guroo  Humanoid Walk Learning
+Evolving Virtual Creatures (Sims)
+Golem (Lipson)
+Evolved Antenna

@@ -1,0 +1,58 @@
+Outline
+Models and Planning
+Models and Planning
+Logical Reasoning for Wumpus World
+Knowledge bases
+Logical Reasoning for Wumpus World
+Reasoning about Future States
+Knowledge Based Agent
+Logic in general
+Entailment
+Models
+Entailment in the wumpus world
+Wumpus models
+Wumpus models
+Wumpus models
+Propositional Logic: Syntax
+Propositional logic: Semantics
+Propositional logic: Semantics
+Truth Tables
+Wumpus World Sentences
+Wumpus World Sentences
+Logical Equivalence and Inference Rules
+Logical Equivalence Rules
+Validity and Satisability
+Example
+Inference
+Conjunctive Normal Form
+Conversion to CNF
+Resolution
+Wumpus World Example
+Proof Methods
+Horn Clauses
+Forward chaining
+Backward chaining
+Forward vs. Backward Chaining
+Satisability as Constraint Satisfaction
+Satisability as Constraint Satisfaction
+Summary
+Limitations of Propositional Logic
+Syntax of First Order Logic
+Logics in General
+Syntax of First Order Logic
+Sentences
+Universal Quantication
+Universal Quantication
+Existential Quantication
+Existential Quantication
+Properties of Quantiers
+Fun with Sentences
+Fun with Sentences
+Deducing Hidden Properties
+Keeping Track of Change
+Describing Actions
+Describing Actions
+Describing Actions
+Searching for a Situation
+Searching for a Plan of Actions
+Summary

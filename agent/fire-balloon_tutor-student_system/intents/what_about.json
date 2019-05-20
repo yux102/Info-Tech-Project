@@ -1,0 +1,36 @@
+{
+  "id": "852df508-4c97-4572-b861-4d2445941a14",
+  "name": "what_about",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f364a969-6248-45d5-a880-85c7f387d3f2",
+          "required": false,
+          "dataType": "@courses",
+          "name": "course",
+          "value": "$course",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

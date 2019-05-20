@@ -1,0 +1,21 @@
+1.Read PDF File
+2.Extract Data
+Use the library named 'pdfminer' which need the environment to be 'python 2.7'. By reading a lot of documents of this 
+library, there are many different structures of objects. In my task, I need to focus on those text objects and ignore the 
+pages which only have some pictures on it. Therefore, I need to distinguish the figure object between the text object.
+After that, i need to find out these texts, which are titles, which are answers. That means I need to use the difference
+between them and I choose to use the font size. Also by using the library, I can get the different font sizes and then i
+can seperate and store the titles and answers.
+3.Process Data
+There are some pages which have the same content but different pictures. However, it is meaningless to store all the same 
+content. That's why i need to process data and only leave those meaningful data. Besides, some content may also have the 
+sub-title, in this case, I need to find out the symbol of the sub-title and then seperate the title and the answer. Last 
+but not the least, some content may have some tips and i also need to give the serial number to them. By the way, for the 
+conveience to the students, i also add the pageid in that pdf file to every answer.
+4.Store Data
+Because i need to upload all the data to the database, then i need to store the data in a json file.
+5.Upload to Database
+We deside to use the mongodb, then we need to use the pymongo library to contact with the database.
+遇到的challenge，选数据，选什么数据，怎么区分title和content，选库（pypdf2，pdfminer），选的库函数
+生成json文件，导入文件，用字典
+爬虫爬了网站，但是最后没采纳等等。

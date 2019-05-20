@@ -1,0 +1,24 @@
+Outline
+Evolutionary Computation
+Recall: Hill Climbing
+Evolutionary Computation
+Evolutionary Issues
+Representations
+Bit String Crossovers
+Genetic Algorithms
+Schema Theorem
+Fitness Functions
+Aibo Walk Learning (Hornby)
+Guroo  Humanoid Walk Learning
+Evolved Antenna
+Gaps in the Fossil Record?
+Co-Evolution in Nature
+Co-evolution in Machine Learning
+Evolving Virtual Creatures (Sims)
+Golem (Lipson)
+Strategic Games
+Sorting Networks #1 (Hillis)
+Sorting Networks #2 (Hillis)
+Iterated Prisoners Dilemma
+Artist Critic Coevolution
+Meta-Game of Learning

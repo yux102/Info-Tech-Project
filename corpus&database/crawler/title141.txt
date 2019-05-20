@@ -1,0 +1,35 @@
+Search Strategies
+Search Strategies
+Romania Street Map
+Heuristic Function
+Greedy Best-First Search
+Straight Line Distance as a Heuristic
+Greedy Best-First Search Example
+Greedy Best-First Search Example
+Greedy Best-First Search Example
+Examples of Greedy Best-First Search
+Properties of Greedy Best-First Search
+Recall: Uniform-Cost Search
+Uniform Cost Search
+Uniform Cost Search
+Properties of Uniform Cost Search
+A Search
+A Search
+A Search Example
+A Search Example
+A Search Example
+A Search Example
+A Search Example
+A Search
+Optimality of A Search
+Optimality of A Search
+Properties of A Search
+Iterative Deepening A Search
+Exercise
+Examples of Admissible Heuristics
+Examples of Admissible Heuristics
+Dominance
+How to Find Heuristic Functions ?
+Composite Heuristic Functions
+Heuristics for Rubiks Cube
+Summary of Informed Search
